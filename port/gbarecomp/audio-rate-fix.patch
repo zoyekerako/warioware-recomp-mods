@@ -1,0 +1,53 @@
+--- /tmp/gba_audio.cpp.orig	2026-09-10 01:31:49
++++ src/gba/gba_audio.cpp	2026-09-10 01:33:07
+@@ -560,6 +560,17 @@
+     uint32_t resolution = (value >> 14) & 0x3u;
+     cycles_per_sample_ = 0x200u >> resolution;
+     if (cycles_per_sample_ == 0) cycles_per_sample_ = 1;
++    if (const char* e = std::getenv("GBARECOMP_AUDIO_PROBE")) {
++        if (e[0] && e[0] != '0') {
++            static uint32_t last = 0;
++            uint32_t r = kSystemHz / cycles_per_sample_;
++            if (r != last) {
++                last = r;
++                std::fprintf(stderr, "[audio] SOUNDBIAS=0x%04X Aufloesung=%u"
++                                     " -> %u Hz\n", value, resolution, r);
++            }
++        }
++    }
+ }
+ 
+ void GbaAudio::timer_overflow(int timer_id) {
+
+--- Weitere Aenderungen (Kurzfassung) ---
+
+src/runtime/host_window.h
+  + void set_audio_source_rate(double hz);
+
+src/runtime/host_window.cpp
+  + HostWindow::set_audio_source_rate(): schreibt bridge.cfg.source_rate unter
+    dem Audio-Mutex; das DRC-Servo rechnet cur_step in der naechsten Runde
+    daraus neu (recomp_audio_drc.h:304).
+
+src/runtime/runtime.cpp  (2 Stellen, beide Praesentationsschleifen)
+  + win.set_audio_source_rate(static_cast<double>(bus.audio().sample_rate()));
+    unmittelbar vor drain_samples().
+
+Ursache: host_window.cpp setzte beim Oeffnen des Geraets
+    cfg.source_rate = 65536.0;  // "engine's standardized GBA mixer rate"
+Das ist keine Konstante, sondern folgt SOUNDBIAS (0x04000088, Bits 14-15):
+    Aufloesung 0 -> 32768 Hz     (Einschaltzustand)
+    Aufloesung 1 -> 65536 Hz     (das BIOS setzt das)
+    Aufloesung 2 -> 131072 Hz
+    Aufloesung 3 -> 262144 Hz
+gba_audio.h haelt selbst kDefaultSampleRate = 32768 fest. Der feste Wert 65536
+stammt aus der Arbeit am BIOS-Klang, wo er zufaellig stimmt.
+
+Gemessen an WarioWare Inc. (GBARECOMP_AUDIO_PROBE=1):
+    SOUNDBIAS=0x0200 Aufloesung=0 -> 32768 Hz    Einschalten
+    SOUNDBIAS=0x4200 Aufloesung=1 -> 65536 Hz    das BIOS
+    SOUNDBIAS=0x0200 Aufloesung=0 -> 32768 Hz    der Soundtreiber des Spiels
+
+Das Spiel laeuft also mit 32768 Hz, abgespielt wurde mit 65536 Hz: doppelte
+Geschwindigkeit, eine Oktave zu hoch. Musik (lange, tonale Linien) wird dadurch
+unkenntlich, kurze Effekte bleiben grob erkennbar -- genau das gemeldete Bild.

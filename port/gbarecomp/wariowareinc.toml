@@ -1,0 +1,160 @@
+# Erzeugt aus wariowareinc-main/wariowareinc.ld -- siehe port/gbarecomp/README.md.
+#
+# Der Decomp weiss Zeile fuer Zeile, welcher ROM-Bereich Code ist und welcher
+# Daten. Ohne diese Bereiche dekodiert die Funktionssuche Grafik als Code und
+# findet 48223 statt rund 5500 Funktionen.
+
+[program]
+name         = "WarioWare Inc.: Mega Microgame$"
+id           = "wariowareinc"
+load_address = 0x08000000
+size         = 0x00800000
+entry_pc     = 0x080000C0
+
+[identity]
+sha1 = "3f556448d290fa5406d6ed367fee16cc02387ad3"
+md5  = "a2d26dc774cec9a0b47388a5dd727b03"
+
+# Von der Laufzeit gelesen (run_game). Der Recompiler nutzt [identity],
+# die Laufzeit [rom]/[bios] -- dieselbe Datei, zwei Verbraucher.
+[rom]
+path  = "rom.gba"
+sha1  = "3f556448d290fa5406d6ed367fee16cc02387ad3"
+crc32 = 0x785D8B8C
+
+[bios]
+path = "gba_bios.bin"
+sha1 = "300c20df6731a33952ded8c436f7f186d25d3492"
+
+[video]
+view_width = 240
+
+# Funktionen, die der Finder nicht erreicht -- aus dem Laufprotokoll
+# ("bridged") plus Namen aus dem Decomp. Ohne diese interpretiert die
+# Laufzeit sie, statt sie kompiliert auszufuehren.
+
+[[extra_func]]
+addr = 0x08000000
+mode = "arm"
+
+[[extra_func]]
+addr = 0x08000272
+mode = "thumb"
+
+[[extra_func]]
+addr = 0x08000F36
+mode = "thumb"
+
+[[extra_func]]
+addr = 0x08000F64
+mode = "thumb"
+
+[[extra_func]]
+addr = 0x08000F66
+mode = "thumb"
+
+[[extra_func]]
+addr = 0x080018B8
+mode = "thumb"
+
+[[extra_func]]
+addr = 0x08001948
+mode = "thumb"
+
+[[extra_func]]
+addr = 0x08002568
+mode = "thumb"
+name = "func_08002568"
+
+[[extra_func]]
+addr = 0x08002584
+mode = "thumb"
+name = "func_08002584"
+
+[[extra_func]]
+addr = 0x0800418C
+mode = "thumb"
+name = "func_0800418C"
+
+[[extra_func]]
+addr = 0x0800710C
+mode = "thumb"
+name = "func_0800710C"
+
+[[extra_func]]
+addr = 0x08007164
+mode = "thumb"
+name = "func_08007164"
+
+[[extra_func]]
+addr = 0x080077B8
+mode = "thumb"
+name = "func_080077B8"
+
+[[extra_func]]
+addr = 0x08007830
+mode = "thumb"
+name = "func_08007830"
+
+[[extra_func]]
+addr = 0x080078A8
+mode = "thumb"
+name = "func_080078A8"
+
+[[extra_func]]
+addr = 0x0800792C
+mode = "thumb"
+name = "func_0800792C"
+
+[[extra_func]]
+addr = 0x08009F00
+mode = "thumb"
+
+[[extra_func]]
+addr = 0x0800BFC8
+mode = "thumb"
+
+[[extra_func]]
+addr = 0x08016730
+mode = "thumb"
+name = "func_08016730"
+
+[[extra_func]]
+addr = 0x08016808
+mode = "thumb"
+name = "func_08016808"
+
+[[extra_func]]
+addr = 0x0801684C
+mode = "thumb"
+name = "func_0801684C"
+
+[[extra_func]]
+addr = 0x08016894
+mode = "thumb"
+name = "func_08016894"
+
+[[extra_func]]
+addr = 0x08016FD8
+mode = "thumb"
+name = "func_08016FD8"
+
+[[extra_func]]
+addr = 0x080EFE0A
+mode = "thumb"
+name = "func_080EFE0A"
+
+[[data_range]]
+start = 0x080EFDAC
+end   = 0x080EFE0A
+note  = "bin/data_080EFDAC.bin"
+
+[[data_range]]
+start = 0x080EFE84
+end   = 0x080F0D58
+note  = "bin/data_080EFE84.bin"
+
+[[data_range]]
+start = 0x080F6140
+end   = 0x08800000
+note  = "alles nach dem letzten .text-Objekt: Grafik, Animation, Audio, data.bin"

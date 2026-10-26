@@ -1,0 +1,6305 @@
+{
+ "rom_bytes": 8388608,
+ "assets": [
+  {
+   "address": "0x08544A98",
+   "file": "gfx_08544A98.4bpp",
+   "bytes": 7778,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08545F28",
+   "file": "gfx_08545F28.4bpp",
+   "bytes": 9216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854613C",
+   "file": "gfx_0854613C.rle.bin",
+   "bytes": 1458,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08546294",
+   "file": "gfx_08546294.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085466D0",
+   "file": "gfx_085466D0.rle.bin",
+   "bytes": 1722,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08547068",
+   "file": "gfx_08547068.4bpp",
+   "bytes": 7136,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08547E64",
+   "file": "gfx_08547E64.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08547FE8",
+   "file": "gfx_08547FE8.rle.bin",
+   "bytes": 3072,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085481E8",
+   "file": "gfx_085481E8.rle.bin",
+   "bytes": 1990,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08548210",
+   "file": "gfx_08548210.rle.bin",
+   "bytes": 1154,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08548ED4",
+   "file": "gfx_08548ED4.4bpp",
+   "bytes": 7840,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854B340",
+   "file": "gfx_0854B340.4bpp",
+   "bytes": 23330,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854B4DC",
+   "file": "gfx_0854B4DC.rle.bin",
+   "bytes": 1654,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0854B7C0",
+   "file": "gfx_0854B7C0.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0854BA84",
+   "file": "gfx_0854BA84.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0854BF48",
+   "file": "gfx_0854BF48.rle.bin",
+   "bytes": 1600,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0854C53C",
+   "file": "gfx_0854C53C.4bpp",
+   "bytes": 2436,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854CB38",
+   "file": "gfx_0854CB38.4bpp",
+   "bytes": 2436,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854CF48",
+   "file": "gfx_0854CF48.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854D374",
+   "file": "gfx_0854D374.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854D890",
+   "file": "gfx_0854D890.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854DE74",
+   "file": "gfx_0854DE74.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854E390",
+   "file": "gfx_0854E390.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854E990",
+   "file": "gfx_0854E990.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854F000",
+   "file": "gfx_0854F000.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854F5A0",
+   "file": "gfx_0854F5A0.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0854FB44",
+   "file": "gfx_0854FB44.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08550160",
+   "file": "gfx_08550160.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08550770",
+   "file": "gfx_08550770.4bpp",
+   "bytes": 2230,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08550CEC",
+   "file": "gfx_08550CEC.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08551270",
+   "file": "gfx_08551270.4bpp",
+   "bytes": 2230,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085518F8",
+   "file": "gfx_085518F8.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08551FDC",
+   "file": "gfx_08551FDC.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0855265C",
+   "file": "gfx_0855265C.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08552D04",
+   "file": "gfx_08552D04.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085532A8",
+   "file": "gfx_085532A8.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0855394C",
+   "file": "gfx_0855394C.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08553E80",
+   "file": "gfx_08553E80.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085543CC",
+   "file": "gfx_085543CC.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08554908",
+   "file": "gfx_08554908.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08554EE0",
+   "file": "gfx_08554EE0.4bpp",
+   "bytes": 2648,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085554AC",
+   "file": "gfx_085554AC.4bpp",
+   "bytes": 2656,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08555A84",
+   "file": "gfx_08555A84.4bpp",
+   "bytes": 2648,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08555E14",
+   "file": "gfx_08555E14.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085561A0",
+   "file": "gfx_085561A0.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08556538",
+   "file": "gfx_08556538.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085569E0",
+   "file": "gfx_085569E0.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08556E88",
+   "file": "gfx_08556E88.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08557330",
+   "file": "gfx_08557330.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085577D8",
+   "file": "gfx_085577D8.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08557B7C",
+   "file": "gfx_08557B7C.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0855808C",
+   "file": "gfx_0855808C.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08558504",
+   "file": "gfx_08558504.4bpp",
+   "bytes": 1850,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0855895C",
+   "file": "gfx_0855895C.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08558D98",
+   "file": "gfx_08558D98.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08558F44",
+   "file": "gfx_08558F44.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0855930C",
+   "file": "gfx_0855930C.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0855969C",
+   "file": "gfx_0855969C.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08559C04",
+   "file": "gfx_08559C04.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0855A0D0",
+   "file": "gfx_0855A0D0.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0855A5A0",
+   "file": "gfx_0855A5A0.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0855AA48",
+   "file": "gfx_0855AA48.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0855AE5C",
+   "file": "gfx_0855AE5C.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0855D3F0",
+   "file": "gfx_0855D3F0.rle.bin",
+   "bytes": 16384,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0855FE64",
+   "file": "gfx_0855FE64.rle.bin",
+   "bytes": 16384,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085626B8",
+   "file": "gfx_085626B8.rle.bin",
+   "bytes": 16384,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08564ED8",
+   "file": "gfx_08564ED8.rle.bin",
+   "bytes": 16384,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08567724",
+   "file": "gfx_08567724.rle.bin",
+   "bytes": 16384,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08569FC8",
+   "file": "gfx_08569FC8.rle.bin",
+   "bytes": 16384,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0856C988",
+   "file": "gfx_0856C988.rle.bin",
+   "bytes": 16384,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0856F448",
+   "file": "gfx_0856F448.rle.bin",
+   "bytes": 16384,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08571AF0",
+   "file": "gfx_08571AF0.rle.bin",
+   "bytes": 16384,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08572A24",
+   "file": "gfx_08572A24.4bpp",
+   "bytes": 10944,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08573988",
+   "file": "gfx_08573988.4bpp",
+   "bytes": 8192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085752D0",
+   "file": "gfx_085752D0.4bpp",
+   "bytes": 11554,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08575DE8",
+   "file": "gfx_08575DE8.4bpp",
+   "bytes": 5024,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085765D0",
+   "file": "gfx_085765D0.4bpp",
+   "bytes": 5120,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08577AE0",
+   "file": "gfx_08577AE0.4bpp",
+   "bytes": 11040,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0857955C",
+   "file": "gfx_0857955C.4bpp",
+   "bytes": 15040,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0857A5B8",
+   "file": "gfx_0857A5B8.4bpp",
+   "bytes": 12032,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0857ACF4",
+   "file": "gfx_0857ACF4.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0857C390",
+   "file": "gfx_0857C390.4bpp",
+   "bytes": 8192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0857DAD8",
+   "file": "gfx_0857DAD8.4bpp",
+   "bytes": 8056,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0857E1A0",
+   "file": "gfx_0857E1A0.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0857E7C8",
+   "file": "gfx_0857E7C8.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0857F104",
+   "file": "gfx_0857F104.4bpp",
+   "bytes": 7744,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0857FC50",
+   "file": "gfx_0857FC50.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085803BC",
+   "file": "gfx_085803BC.4bpp",
+   "bytes": 4992,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08580F00",
+   "file": "gfx_08580F00.4bpp",
+   "bytes": 9216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08581E44",
+   "file": "gfx_08581E44.4bpp",
+   "bytes": 11482,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085847A4",
+   "file": "gfx_085847A4.4bpp",
+   "bytes": 20480,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08585FE8",
+   "file": "gfx_08585FE8.4bpp",
+   "bytes": 13888,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0858786C",
+   "file": "gfx_0858786C.4bpp",
+   "bytes": 13116,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0858B39C",
+   "file": "gfx_0858B39C.4bpp",
+   "bytes": 24674,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0858C058",
+   "file": "gfx_0858C058.4bpp",
+   "bytes": 9474,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0858C2A4",
+   "file": "gfx_0858C2A4.rle.bin",
+   "bytes": 1024,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858C5C4",
+   "file": "gfx_0858C5C4.rle.bin",
+   "bytes": 1776,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858CACC",
+   "file": "gfx_0858CACC.rle.bin",
+   "bytes": 1278,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858CFB0",
+   "file": "gfx_0858CFB0.rle.bin",
+   "bytes": 1602,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858D290",
+   "file": "gfx_0858D290.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858D634",
+   "file": "gfx_0858D634.rle.bin",
+   "bytes": 1766,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858DB04",
+   "file": "gfx_0858DB04.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858DC50",
+   "file": "gfx_0858DC50.rle.bin",
+   "bytes": 1024,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858DDCC",
+   "file": "gfx_0858DDCC.rle.bin",
+   "bytes": 1600,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858E0CC",
+   "file": "gfx_0858E0CC.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858E1AC",
+   "file": "gfx_0858E1AC.rle.bin",
+   "bytes": 256,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858E3F8",
+   "file": "gfx_0858E3F8.rle.bin",
+   "bytes": 3330,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858E5D0",
+   "file": "gfx_0858E5D0.rle.bin",
+   "bytes": 1566,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858E910",
+   "file": "gfx_0858E910.rle.bin",
+   "bytes": 3202,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858ECEC",
+   "file": "gfx_0858ECEC.rle.bin",
+   "bytes": 3330,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858EF24",
+   "file": "gfx_0858EF24.rle.bin",
+   "bytes": 1756,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858F340",
+   "file": "gfx_0858F340.rle.bin",
+   "bytes": 3712,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0858FC6C",
+   "file": "gfx_0858FC6C.rle.bin",
+   "bytes": 3762,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085905E4",
+   "file": "gfx_085905E4.4bpp",
+   "bytes": 19168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08590F7C",
+   "file": "gfx_08590F7C.4bpp",
+   "bytes": 19154,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085917DC",
+   "file": "gfx_085917DC.4bpp",
+   "bytes": 18262,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08591E40",
+   "file": "gfx_08591E40.4bpp",
+   "bytes": 18328,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08592398",
+   "file": "gfx_08592398.4bpp",
+   "bytes": 18086,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08592AF0",
+   "file": "gfx_08592AF0.4bpp",
+   "bytes": 18194,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085931C0",
+   "file": "gfx_085931C0.4bpp",
+   "bytes": 18210,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08593750",
+   "file": "gfx_08593750.4bpp",
+   "bytes": 18172,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08593C4C",
+   "file": "gfx_08593C4C.4bpp",
+   "bytes": 18080,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0859421C",
+   "file": "gfx_0859421C.rle.bin",
+   "bytes": 328,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08594698",
+   "file": "gfx_08594698.4bpp",
+   "bytes": 1474,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08594FF4",
+   "file": "gfx_08594FF4.4bpp",
+   "bytes": 19142,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085959A8",
+   "file": "gfx_085959A8.4bpp",
+   "bytes": 18830,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085962FC",
+   "file": "gfx_085962FC.4bpp",
+   "bytes": 19142,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08596CE4",
+   "file": "gfx_08596CE4.4bpp",
+   "bytes": 19146,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08597738",
+   "file": "gfx_08597738.4bpp",
+   "bytes": 18830,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0859812C",
+   "file": "gfx_0859812C.4bpp",
+   "bytes": 19142,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08598B14",
+   "file": "gfx_08598B14.4bpp",
+   "bytes": 19146,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08599560",
+   "file": "gfx_08599560.4bpp",
+   "bytes": 18830,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08599F5C",
+   "file": "gfx_08599F5C.4bpp",
+   "bytes": 19142,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0859AA94",
+   "file": "gfx_0859AA94.4bpp",
+   "bytes": 19146,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0859B6E4",
+   "file": "gfx_0859B6E4.4bpp",
+   "bytes": 19146,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0859C29C",
+   "file": "gfx_0859C29C.4bpp",
+   "bytes": 19146,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0859CE38",
+   "file": "gfx_0859CE38.4bpp",
+   "bytes": 19146,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0859D8B4",
+   "file": "gfx_0859D8B4.4bpp",
+   "bytes": 19146,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0859E248",
+   "file": "gfx_0859E248.4bpp",
+   "bytes": 19174,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0859ECDC",
+   "file": "gfx_0859ECDC.4bpp",
+   "bytes": 19192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0859F714",
+   "file": "gfx_0859F714.4bpp",
+   "bytes": 19104,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0859FF70",
+   "file": "gfx_0859FF70.4bpp",
+   "bytes": 18948,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085A0688",
+   "file": "gfx_085A0688.4bpp",
+   "bytes": 18422,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085A17E8",
+   "file": "gfx_085A17E8.4bpp",
+   "bytes": 7528,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085A51A0",
+   "file": "gfx_085A51A0.4bpp",
+   "bytes": 25372,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085A6B1C",
+   "file": "gfx_085A6B1C.4bpp",
+   "bytes": 16286,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085A7E50",
+   "file": "gfx_085A7E50.4bpp",
+   "bytes": 18594,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085A8AC8",
+   "file": "gfx_085A8AC8.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085A9F38",
+   "file": "gfx_085A9F38.4bpp",
+   "bytes": 18840,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085AB480",
+   "file": "gfx_085AB480.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085AC59C",
+   "file": "gfx_085AC59C.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085AE4BC",
+   "file": "gfx_085AE4BC.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085AF204",
+   "file": "gfx_085AF204.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085AFC3C",
+   "file": "gfx_085AFC3C.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085AFED4",
+   "file": "gfx_085AFED4.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085B015C",
+   "file": "gfx_085B015C.4bpp",
+   "bytes": 3072,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085B0A88",
+   "file": "gfx_085B0A88.4bpp",
+   "bytes": 8192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085B0EA8",
+   "file": "gfx_085B0EA8.4bpp",
+   "bytes": 3680,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085B0F5C",
+   "file": "gfx_085B0F5C.4bpp",
+   "bytes": 704,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085B224C",
+   "file": "gfx_085B224C.4bpp",
+   "bytes": 19072,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085B38E4",
+   "file": "gfx_085B38E4.4bpp",
+   "bytes": 19010,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085B51C0",
+   "file": "gfx_085B51C0.4bpp",
+   "bytes": 18944,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085B6170",
+   "file": "gfx_085B6170.4bpp",
+   "bytes": 18022,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085B6DDC",
+   "file": "gfx_085B6DDC.4bpp",
+   "bytes": 18802,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085B82D8",
+   "file": "gfx_085B82D8.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085BA1F8",
+   "file": "gfx_085BA1F8.4bpp",
+   "bytes": 19008,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085BA710",
+   "file": "gfx_085BA710.4bpp",
+   "bytes": 18816,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085BA7A4",
+   "file": "gfx_085BA7A4.rle.bin",
+   "bytes": 1582,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085BB1A4",
+   "file": "gfx_085BB1A4.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085BB388",
+   "file": "gfx_085BB388.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085BB544",
+   "file": "gfx_085BB544.rle.bin",
+   "bytes": 1772,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085BD308",
+   "file": "gfx_085BD308.4bpp",
+   "bytes": 13800,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085BE9AC",
+   "file": "gfx_085BE9AC.4bpp",
+   "bytes": 9178,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085C0BCC",
+   "file": "gfx_085C0BCC.4bpp",
+   "bytes": 15112,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085C215C",
+   "file": "gfx_085C215C.4bpp",
+   "bytes": 11522,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085C37B0",
+   "file": "gfx_085C37B0.4bpp",
+   "bytes": 10240,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085C42D0",
+   "file": "gfx_085C42D0.4bpp",
+   "bytes": 9216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085C4D7C",
+   "file": "gfx_085C4D7C.4bpp",
+   "bytes": 9184,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085C66B0",
+   "file": "gfx_085C66B0.4bpp",
+   "bytes": 12288,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085C8044",
+   "file": "gfx_085C8044.4bpp",
+   "bytes": 15968,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085C98C0",
+   "file": "gfx_085C98C0.4bpp",
+   "bytes": 11264,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085C9EF8",
+   "file": "gfx_085C9EF8.4bpp",
+   "bytes": 5888,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085CA264",
+   "file": "gfx_085CA264.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085CA3E4",
+   "file": "gfx_085CA3E4.rle.bin",
+   "bytes": 1600,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085CA708",
+   "file": "gfx_085CA708.rle.bin",
+   "bytes": 1596,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085CAAA4",
+   "file": "gfx_085CAAA4.rle.bin",
+   "bytes": 1986,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085CAE64",
+   "file": "gfx_085CAE64.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085CB188",
+   "file": "gfx_085CB188.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085CB49C",
+   "file": "gfx_085CB49C.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085CB6F0",
+   "file": "gfx_085CB6F0.rle.bin",
+   "bytes": 1346,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085CBA0C",
+   "file": "gfx_085CBA0C.rle.bin",
+   "bytes": 1852,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085CBB28",
+   "file": "gfx_085CBB28.rle.bin",
+   "bytes": 1282,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085CBB48",
+   "file": "gfx_085CBB48.rle.bin",
+   "bytes": 1090,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085CC574",
+   "file": "gfx_085CC574.4bpp",
+   "bytes": 4752,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085CCEC4",
+   "file": "gfx_085CCEC4.4bpp",
+   "bytes": 7552,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085CE570",
+   "file": "gfx_085CE570.4bpp",
+   "bytes": 12480,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085CF864",
+   "file": "gfx_085CF864.4bpp",
+   "bytes": 12480,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085D0D24",
+   "file": "gfx_085D0D24.4bpp",
+   "bytes": 12480,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085D2230",
+   "file": "gfx_085D2230.4bpp",
+   "bytes": 12480,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085D388C",
+   "file": "gfx_085D388C.4bpp",
+   "bytes": 12480,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085D4E20",
+   "file": "gfx_085D4E20.4bpp",
+   "bytes": 12480,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085D6400",
+   "file": "gfx_085D6400.4bpp",
+   "bytes": 12480,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085D78F8",
+   "file": "gfx_085D78F8.4bpp",
+   "bytes": 12480,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085D8E60",
+   "file": "gfx_085D8E60.4bpp",
+   "bytes": 12402,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085D9C84",
+   "file": "gfx_085D9C84.4bpp",
+   "bytes": 12450,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085DAEBC",
+   "file": "gfx_085DAEBC.4bpp",
+   "bytes": 12436,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085DC4E4",
+   "file": "gfx_085DC4E4.4bpp",
+   "bytes": 12450,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085DDBD4",
+   "file": "gfx_085DDBD4.4bpp",
+   "bytes": 12480,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085DF0EC",
+   "file": "gfx_085DF0EC.4bpp",
+   "bytes": 12480,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085E0618",
+   "file": "gfx_085E0618.4bpp",
+   "bytes": 12402,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085E0E2C",
+   "file": "gfx_085E0E2C.4bpp",
+   "bytes": 12352,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085E1BFC",
+   "file": "gfx_085E1BFC.4bpp",
+   "bytes": 19594,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085E1FDC",
+   "file": "gfx_085E1FDC.4bpp",
+   "bytes": 19700,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085E2B2C",
+   "file": "gfx_085E2B2C.4bpp",
+   "bytes": 5760,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085E2CA0",
+   "file": "gfx_085E2CA0.4bpp",
+   "bytes": 1920,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085E4FF4",
+   "file": "gfx_085E4FF4.4bpp",
+   "bytes": 14880,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085E630C",
+   "file": "gfx_085E630C.4bpp",
+   "bytes": 9216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085E8F0C",
+   "file": "gfx_085E8F0C.4bpp",
+   "bytes": 22892,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085E9038",
+   "file": "gfx_085E9038.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085E9354",
+   "file": "gfx_085E9354.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085E9714",
+   "file": "gfx_085E9714.rle.bin",
+   "bytes": 1278,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085E9774",
+   "file": "gfx_085E9774.rle.bin",
+   "bytes": 2560,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085E9820",
+   "file": "gfx_085E9820.rle.bin",
+   "bytes": 1538,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085E9840",
+   "file": "gfx_085E9840.rle.bin",
+   "bytes": 1090,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085E9858",
+   "file": "gfx_085E9858.rle.bin",
+   "bytes": 512,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085EC2E8",
+   "file": "gfx_085EC2E8.4bpp",
+   "bytes": 19456,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085ECC8C",
+   "file": "gfx_085ECC8C.4bpp",
+   "bytes": 4962,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085EE064",
+   "file": "gfx_085EE064.4bpp",
+   "bytes": 10110,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085EF414",
+   "file": "gfx_085EF414.4bpp",
+   "bytes": 9216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085F0F6C",
+   "file": "gfx_085F0F6C.4bpp",
+   "bytes": 13894,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085F1FB4",
+   "file": "gfx_085F1FB4.4bpp",
+   "bytes": 5602,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085F2A28",
+   "file": "gfx_085F2A28.4bpp",
+   "bytes": 5120,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085F5CB8",
+   "file": "gfx_085F5CB8.4bpp",
+   "bytes": 24738,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085F77BC",
+   "file": "gfx_085F77BC.4bpp",
+   "bytes": 12288,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085F8194",
+   "file": "gfx_085F8194.4bpp",
+   "bytes": 8116,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085F9480",
+   "file": "gfx_085F9480.4bpp",
+   "bytes": 9216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085FA2A0",
+   "file": "gfx_085FA2A0.4bpp",
+   "bytes": 7362,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085FA9BC",
+   "file": "gfx_085FA9BC.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FAD68",
+   "file": "gfx_085FAD68.rle.bin",
+   "bytes": 1784,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FAE38",
+   "file": "gfx_085FAE38.rle.bin",
+   "bytes": 1140,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FAE58",
+   "file": "gfx_085FAE58.rle.bin",
+   "bytes": 1090,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FAEF4",
+   "file": "gfx_085FAEF4.rle.bin",
+   "bytes": 1600,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FB08C",
+   "file": "gfx_085FB08C.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FB1AC",
+   "file": "gfx_085FB1AC.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FB50C",
+   "file": "gfx_085FB50C.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FB798",
+   "file": "gfx_085FB798.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FBA0C",
+   "file": "gfx_085FBA0C.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FBA60",
+   "file": "gfx_085FBA60.rle.bin",
+   "bytes": 1282,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FBC5C",
+   "file": "gfx_085FBC5C.rle.bin",
+   "bytes": 1468,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FBECC",
+   "file": "gfx_085FBECC.rle.bin",
+   "bytes": 1468,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FC354",
+   "file": "gfx_085FC354.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x085FDCF4",
+   "file": "gfx_085FDCF4.4bpp",
+   "bytes": 19010,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085FE4C4",
+   "file": "gfx_085FE4C4.4bpp",
+   "bytes": 3840,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085FEB24",
+   "file": "gfx_085FEB24.4bpp",
+   "bytes": 3840,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085FEFB0",
+   "file": "gfx_085FEFB0.4bpp",
+   "bytes": 3840,
+   "double_compressed": true
+  },
+  {
+   "address": "0x085FF29C",
+   "file": "gfx_085FF29C.4bpp",
+   "bytes": 3840,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0860051C",
+   "file": "gfx_0860051C.4bpp",
+   "bytes": 19088,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08601DBC",
+   "file": "gfx_08601DBC.4bpp",
+   "bytes": 19120,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0860376C",
+   "file": "gfx_0860376C.4bpp",
+   "bytes": 18194,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08604DEC",
+   "file": "gfx_08604DEC.4bpp",
+   "bytes": 19052,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08606E74",
+   "file": "gfx_08606E74.4bpp",
+   "bytes": 19026,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08608DCC",
+   "file": "gfx_08608DCC.4bpp",
+   "bytes": 18688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0860B0E4",
+   "file": "gfx_0860B0E4.4bpp",
+   "bytes": 18384,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0860D5E4",
+   "file": "gfx_0860D5E4.4bpp",
+   "bytes": 18388,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0860FC18",
+   "file": "gfx_0860FC18.4bpp",
+   "bytes": 19150,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08611874",
+   "file": "gfx_08611874.4bpp",
+   "bytes": 19026,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08612500",
+   "file": "gfx_08612500.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08613024",
+   "file": "gfx_08613024.4bpp",
+   "bytes": 7514,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086152E4",
+   "file": "gfx_086152E4.4bpp",
+   "bytes": 14976,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08616A00",
+   "file": "gfx_08616A00.4bpp",
+   "bytes": 12256,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08617EDC",
+   "file": "gfx_08617EDC.4bpp",
+   "bytes": 12288,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086183C0",
+   "file": "gfx_086183C0.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086187BC",
+   "file": "gfx_086187BC.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0861B68C",
+   "file": "gfx_0861B68C.4bpp",
+   "bytes": 17408,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0861B7A4",
+   "file": "gfx_0861B7A4.4bpp",
+   "bytes": 1024,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0861D5BC",
+   "file": "gfx_0861D5BC.4bpp",
+   "bytes": 16322,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0861E9B8",
+   "file": "gfx_0861E9B8.4bpp",
+   "bytes": 10240,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0861FF20",
+   "file": "gfx_0861FF20.4bpp",
+   "bytes": 18734,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08620B60",
+   "file": "gfx_08620B60.4bpp",
+   "bytes": 18592,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08622B28",
+   "file": "gfx_08622B28.4bpp",
+   "bytes": 15360,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08622E80",
+   "file": "gfx_08622E80.4bpp",
+   "bytes": 2752,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08623150",
+   "file": "gfx_08623150.4bpp",
+   "bytes": 2048,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08624E64",
+   "file": "gfx_08624E64.4bpp",
+   "bytes": 15360,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08625374",
+   "file": "gfx_08625374.4bpp",
+   "bytes": 2912,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086287B4",
+   "file": "gfx_086287B4.4bpp",
+   "bytes": 23488,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08629C4C",
+   "file": "gfx_08629C4C.4bpp",
+   "bytes": 11264,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0862D700",
+   "file": "gfx_0862D700.4bpp",
+   "bytes": 24372,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08630678",
+   "file": "gfx_08630678.4bpp",
+   "bytes": 23548,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0863234C",
+   "file": "gfx_0863234C.4bpp",
+   "bytes": 16384,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08633B54",
+   "file": "gfx_08633B54.4bpp",
+   "bytes": 10208,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08633C9C",
+   "file": "gfx_08633C9C.4bpp",
+   "bytes": 1122,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086342BC",
+   "file": "gfx_086342BC.rle.bin",
+   "bytes": 1278,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086343EC",
+   "file": "gfx_086343EC.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0863493C",
+   "file": "gfx_0863493C.rle.bin",
+   "bytes": 2044,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08634C60",
+   "file": "gfx_08634C60.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08634CA0",
+   "file": "gfx_08634CA0.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08634CE0",
+   "file": "gfx_08634CE0.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086351A0",
+   "file": "gfx_086351A0.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086354C8",
+   "file": "gfx_086354C8.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08635894",
+   "file": "gfx_08635894.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08635D3C",
+   "file": "gfx_08635D3C.rle.bin",
+   "bytes": 1278,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086360CC",
+   "file": "gfx_086360CC.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08637798",
+   "file": "gfx_08637798.rle.bin",
+   "bytes": 8160,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08639420",
+   "file": "gfx_08639420.rle.bin",
+   "bytes": 10240,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0863A6F8",
+   "file": "gfx_0863A6F8.rle.bin",
+   "bytes": 8192,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0863B1AC",
+   "file": "gfx_0863B1AC.rle.bin",
+   "bytes": 4096,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0863B434",
+   "file": "gfx_0863B434.rle.bin",
+   "bytes": 1786,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0863B844",
+   "file": "gfx_0863B844.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0863BD5C",
+   "file": "gfx_0863BD5C.4bpp",
+   "bytes": 11232,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0863C10C",
+   "file": "gfx_0863C10C.4bpp",
+   "bytes": 11218,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0863CEF4",
+   "file": "gfx_0863CEF4.4bpp",
+   "bytes": 19184,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0863D564",
+   "file": "gfx_0863D564.4bpp",
+   "bytes": 11248,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0863D91C",
+   "file": "gfx_0863D91C.4bpp",
+   "bytes": 11218,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0863DE44",
+   "file": "gfx_0863DE44.4bpp",
+   "bytes": 11234,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0863E1BC",
+   "file": "gfx_0863E1BC.4bpp",
+   "bytes": 11232,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0863E720",
+   "file": "gfx_0863E720.4bpp",
+   "bytes": 11232,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0863EAA8",
+   "file": "gfx_0863EAA8.4bpp",
+   "bytes": 11216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0863F1AC",
+   "file": "gfx_0863F1AC.4bpp",
+   "bytes": 5824,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0863FFF8",
+   "file": "gfx_0863FFF8.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08640834",
+   "file": "gfx_08640834.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08642B4C",
+   "file": "gfx_08642B4C.4bpp",
+   "bytes": 15714,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08642C74",
+   "file": "gfx_08642C74.4bpp",
+   "bytes": 2048,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086449BC",
+   "file": "gfx_086449BC.4bpp",
+   "bytes": 19820,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08644E5C",
+   "file": "gfx_08644E5C.rle.bin",
+   "bytes": 1282,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08644EC0",
+   "file": "gfx_08644EC0.rle.bin",
+   "bytes": 1244,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08644F34",
+   "file": "gfx_08644F34.rle.bin",
+   "bytes": 1024,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08647F0C",
+   "file": "gfx_08647F0C.4bpp",
+   "bytes": 24160,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08649EB0",
+   "file": "gfx_08649EB0.4bpp",
+   "bytes": 18432,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0864AF84",
+   "file": "gfx_0864AF84.4bpp",
+   "bytes": 7366,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0864DDCC",
+   "file": "gfx_0864DDCC.4bpp",
+   "bytes": 20094,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0864DF54",
+   "file": "gfx_0864DF54.4bpp",
+   "bytes": 3478,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0864E328",
+   "file": "gfx_0864E328.rle.bin",
+   "bytes": 1278,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0864E63C",
+   "file": "gfx_0864E63C.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0864E9D4",
+   "file": "gfx_0864E9D4.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0864ED98",
+   "file": "gfx_0864ED98.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0864EF44",
+   "file": "gfx_0864EF44.rle.bin",
+   "bytes": 1516,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0864F10C",
+   "file": "gfx_0864F10C.rle.bin",
+   "bytes": 1516,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0864F718",
+   "file": "gfx_0864F718.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08650064",
+   "file": "gfx_08650064.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08650314",
+   "file": "gfx_08650314.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086505D8",
+   "file": "gfx_086505D8.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08650808",
+   "file": "gfx_08650808.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086509AC",
+   "file": "gfx_086509AC.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08650A74",
+   "file": "gfx_08650A74.rle.bin",
+   "bytes": 1316,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08650F74",
+   "file": "gfx_08650F74.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08651E94",
+   "file": "gfx_08651E94.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08652A18",
+   "file": "gfx_08652A18.4bpp",
+   "bytes": 4800,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086537B0",
+   "file": "gfx_086537B0.4bpp",
+   "bytes": 9792,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08653A10",
+   "file": "gfx_08653A10.rle.bin",
+   "bytes": 1750,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08653BCC",
+   "file": "gfx_08653BCC.rle.bin",
+   "bytes": 1950,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08653EAC",
+   "file": "gfx_08653EAC.rle.bin",
+   "bytes": 1594,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08653F50",
+   "file": "gfx_08653F50.rle.bin",
+   "bytes": 1158,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08654054",
+   "file": "gfx_08654054.rle.bin",
+   "bytes": 1278,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08655DF8",
+   "file": "gfx_08655DF8.4bpp",
+   "bytes": 12960,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08656E74",
+   "file": "gfx_08656E74.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08657B44",
+   "file": "gfx_08657B44.4bpp",
+   "bytes": 7742,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08658B80",
+   "file": "gfx_08658B80.4bpp",
+   "bytes": 7872,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08659980",
+   "file": "gfx_08659980.4bpp",
+   "bytes": 7744,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0865C1A8",
+   "file": "gfx_0865C1A8.4bpp",
+   "bytes": 20256,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0865DCF4",
+   "file": "gfx_0865DCF4.4bpp",
+   "bytes": 12140,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08660514",
+   "file": "gfx_08660514.4bpp",
+   "bytes": 20406,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08661FB0",
+   "file": "gfx_08661FB0.4bpp",
+   "bytes": 13312,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086624FC",
+   "file": "gfx_086624FC.rle.bin",
+   "bytes": 1270,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08662910",
+   "file": "gfx_08662910.rle.bin",
+   "bytes": 1880,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08662BEC",
+   "file": "gfx_08662BEC.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08662EEC",
+   "file": "gfx_08662EEC.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0866321C",
+   "file": "gfx_0866321C.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0866345C",
+   "file": "gfx_0866345C.rle.bin",
+   "bytes": 1774,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08664AF4",
+   "file": "gfx_08664AF4.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0866609C",
+   "file": "gfx_0866609C.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08667AAC",
+   "file": "gfx_08667AAC.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086694D8",
+   "file": "gfx_086694D8.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0866B01C",
+   "file": "gfx_0866B01C.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0866CBFC",
+   "file": "gfx_0866CBFC.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0866DC5C",
+   "file": "gfx_0866DC5C.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0866E4D8",
+   "file": "gfx_0866E4D8.4bpp",
+   "bytes": 18944,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0866EC68",
+   "file": "gfx_0866EC68.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0866F798",
+   "file": "gfx_0866F798.4bpp",
+   "bytes": 5538,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0866FA40",
+   "file": "gfx_0866FA40.4bpp",
+   "bytes": 1344,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0866FD10",
+   "file": "gfx_0866FD10.4bpp",
+   "bytes": 1344,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0866FFCC",
+   "file": "gfx_0866FFCC.4bpp",
+   "bytes": 1344,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08670288",
+   "file": "gfx_08670288.4bpp",
+   "bytes": 1344,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08670514",
+   "file": "gfx_08670514.4bpp",
+   "bytes": 1344,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086707A4",
+   "file": "gfx_086707A4.4bpp",
+   "bytes": 1344,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086711BC",
+   "file": "gfx_086711BC.4bpp",
+   "bytes": 2984,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08672BD0",
+   "file": "gfx_08672BD0.4bpp",
+   "bytes": 17408,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08672C08",
+   "file": "gfx_08672C08.4bpp",
+   "bytes": 576,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08672D30",
+   "file": "gfx_08672D30.rle.bin",
+   "bytes": 1258,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08673248",
+   "file": "gfx_08673248.rle.bin",
+   "bytes": 1020,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086732FC",
+   "file": "gfx_086732FC.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08674718",
+   "file": "gfx_08674718.4bpp",
+   "bytes": 11104,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08676B30",
+   "file": "gfx_08676B30.4bpp",
+   "bytes": 21142,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867897C",
+   "file": "gfx_0867897C.4bpp",
+   "bytes": 15046,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08678D94",
+   "file": "gfx_08678D94.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086790B0",
+   "file": "gfx_086790B0.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086793B8",
+   "file": "gfx_086793B8.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0867946C",
+   "file": "gfx_0867946C.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08679720",
+   "file": "gfx_08679720.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0867A080",
+   "file": "gfx_0867A080.4bpp",
+   "bytes": 5122,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867AA40",
+   "file": "gfx_0867AA40.4bpp",
+   "bytes": 5120,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867AADC",
+   "file": "gfx_0867AADC.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867ABA4",
+   "file": "gfx_0867ABA4.4bpp",
+   "bytes": 4160,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867AC90",
+   "file": "gfx_0867AC90.4bpp",
+   "bytes": 4160,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867AD7C",
+   "file": "gfx_0867AD7C.4bpp",
+   "bytes": 4160,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867AE58",
+   "file": "gfx_0867AE58.4bpp",
+   "bytes": 4160,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867AF30",
+   "file": "gfx_0867AF30.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867AFB4",
+   "file": "gfx_0867AFB4.4bpp",
+   "bytes": 3282,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867B084",
+   "file": "gfx_0867B084.4bpp",
+   "bytes": 2848,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867B144",
+   "file": "gfx_0867B144.4bpp",
+   "bytes": 2450,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867B1D4",
+   "file": "gfx_0867B1D4.4bpp",
+   "bytes": 2382,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867B224",
+   "file": "gfx_0867B224.4bpp",
+   "bytes": 2282,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867CDB0",
+   "file": "gfx_0867CDB0.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0867EA3C",
+   "file": "gfx_0867EA3C.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08680B40",
+   "file": "gfx_08680B40.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086828F8",
+   "file": "gfx_086828F8.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08684530",
+   "file": "gfx_08684530.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08685BEC",
+   "file": "gfx_08685BEC.4bpp",
+   "bytes": 18980,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08686BB8",
+   "file": "gfx_08686BB8.4bpp",
+   "bytes": 19026,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08687BAC",
+   "file": "gfx_08687BAC.4bpp",
+   "bytes": 5120,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086888BC",
+   "file": "gfx_086888BC.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08689220",
+   "file": "gfx_08689220.4bpp",
+   "bytes": 5914,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0868A1C0",
+   "file": "gfx_0868A1C0.4bpp",
+   "bytes": 18126,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0868B09C",
+   "file": "gfx_0868B09C.4bpp",
+   "bytes": 18944,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0868BE70",
+   "file": "gfx_0868BE70.4bpp",
+   "bytes": 18912,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0868CD48",
+   "file": "gfx_0868CD48.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0868DB14",
+   "file": "gfx_0868DB14.4bpp",
+   "bytes": 19200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0868E24C",
+   "file": "gfx_0868E24C.4bpp",
+   "bytes": 19084,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0868E6A8",
+   "file": "gfx_0868E6A8.4bpp",
+   "bytes": 18018,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0868F798",
+   "file": "gfx_0868F798.4bpp",
+   "bytes": 18128,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08690718",
+   "file": "gfx_08690718.4bpp",
+   "bytes": 18124,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08690B18",
+   "file": "gfx_08690B18.rle.bin",
+   "bytes": 1278,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08690EB8",
+   "file": "gfx_08690EB8.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086912A0",
+   "file": "gfx_086912A0.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08691A3C",
+   "file": "gfx_08691A3C.4bpp",
+   "bytes": 2626,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08693290",
+   "file": "gfx_08693290.4bpp",
+   "bytes": 12288,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08694A9C",
+   "file": "gfx_08694A9C.4bpp",
+   "bytes": 12288,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0869854C",
+   "file": "gfx_0869854C.4bpp",
+   "bytes": 25794,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08698B7C",
+   "file": "gfx_08698B7C.4bpp",
+   "bytes": 6784,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08699540",
+   "file": "gfx_08699540.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0869AB38",
+   "file": "gfx_0869AB38.4bpp",
+   "bytes": 8482,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0869AD2C",
+   "file": "gfx_0869AD2C.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0869B598",
+   "file": "gfx_0869B598.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0869B810",
+   "file": "gfx_0869B810.rle.bin",
+   "bytes": 1814,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0869B990",
+   "file": "gfx_0869B990.rle.bin",
+   "bytes": 1770,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0869BB14",
+   "file": "gfx_0869BB14.rle.bin",
+   "bytes": 1772,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0869BCA0",
+   "file": "gfx_0869BCA0.rle.bin",
+   "bytes": 1772,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0869D6A0",
+   "file": "gfx_0869D6A0.4bpp",
+   "bytes": 9762,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0869DE04",
+   "file": "gfx_0869DE04.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0869E7B0",
+   "file": "gfx_0869E7B0.4bpp",
+   "bytes": 4640,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0869EED0",
+   "file": "gfx_0869EED0.rle.bin",
+   "bytes": 2012,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086A003C",
+   "file": "gfx_086A003C.4bpp",
+   "bytes": 8192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086A16C0",
+   "file": "gfx_086A16C0.4bpp",
+   "bytes": 11712,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086A3948",
+   "file": "gfx_086A3948.4bpp",
+   "bytes": 13312,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086A5990",
+   "file": "gfx_086A5990.4bpp",
+   "bytes": 12482,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086A622C",
+   "file": "gfx_086A622C.4bpp",
+   "bytes": 3934,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086A9B18",
+   "file": "gfx_086A9B18.4bpp",
+   "bytes": 24576,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086AC7C8",
+   "file": "gfx_086AC7C8.4bpp",
+   "bytes": 23074,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086ACAD8",
+   "file": "gfx_086ACAD8.rle.bin",
+   "bytes": 1848,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086ACE0C",
+   "file": "gfx_086ACE0C.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AD13C",
+   "file": "gfx_086AD13C.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AD458",
+   "file": "gfx_086AD458.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AD51C",
+   "file": "gfx_086AD51C.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AD5D8",
+   "file": "gfx_086AD5D8.rle.bin",
+   "bytes": 962,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AD998",
+   "file": "gfx_086AD998.rle.bin",
+   "bytes": 1278,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086ADD24",
+   "file": "gfx_086ADD24.rle.bin",
+   "bytes": 1278,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086ADE9C",
+   "file": "gfx_086ADE9C.rle.bin",
+   "bytes": 1856,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AE010",
+   "file": "gfx_086AE010.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AE198",
+   "file": "gfx_086AE198.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AE398",
+   "file": "gfx_086AE398.rle.bin",
+   "bytes": 2302,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AE3D4",
+   "file": "gfx_086AE3D4.rle.bin",
+   "bytes": 608,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AE488",
+   "file": "gfx_086AE488.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AE5EC",
+   "file": "gfx_086AE5EC.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AE868",
+   "file": "gfx_086AE868.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AEC14",
+   "file": "gfx_086AEC14.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086AEFF4",
+   "file": "gfx_086AEFF4.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086B075C",
+   "file": "gfx_086B075C.4bpp",
+   "bytes": 8736,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086B1710",
+   "file": "gfx_086B1710.4bpp",
+   "bytes": 6144,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086B3B38",
+   "file": "gfx_086B3B38.4bpp",
+   "bytes": 14336,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086B5EAC",
+   "file": "gfx_086B5EAC.4bpp",
+   "bytes": 13184,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086B73A0",
+   "file": "gfx_086B73A0.4bpp",
+   "bytes": 8192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086B8D50",
+   "file": "gfx_086B8D50.4bpp",
+   "bytes": 11104,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086BA6AC",
+   "file": "gfx_086BA6AC.4bpp",
+   "bytes": 10880,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086BAC50",
+   "file": "gfx_086BAC50.rle.bin",
+   "bytes": 3070,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086BAF28",
+   "file": "gfx_086BAF28.rle.bin",
+   "bytes": 3070,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086BB168",
+   "file": "gfx_086BB168.rle.bin",
+   "bytes": 3070,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086BB5C0",
+   "file": "gfx_086BB5C0.rle.bin",
+   "bytes": 3070,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086BB9FC",
+   "file": "gfx_086BB9FC.rle.bin",
+   "bytes": 3070,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086BBD00",
+   "file": "gfx_086BBD00.rle.bin",
+   "bytes": 3070,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086BC034",
+   "file": "gfx_086BC034.rle.bin",
+   "bytes": 3070,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086BC39C",
+   "file": "gfx_086BC39C.rle.bin",
+   "bytes": 3070,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086C01CC",
+   "file": "gfx_086C01CC.4bpp",
+   "bytes": 22998,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086C14A0",
+   "file": "gfx_086C14A0.rle.bin",
+   "bytes": 8166,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086C1E68",
+   "file": "gfx_086C1E68.rle.bin",
+   "bytes": 8130,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086C2680",
+   "file": "gfx_086C2680.rle.bin",
+   "bytes": 510,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086C46BC",
+   "file": "gfx_086C46BC.4bpp",
+   "bytes": 14992,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086C5670",
+   "file": "gfx_086C5670.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086C7A44",
+   "file": "gfx_086C7A44.4bpp",
+   "bytes": 15200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086C9B70",
+   "file": "gfx_086C9B70.4bpp",
+   "bytes": 17282,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086CA09C",
+   "file": "gfx_086CA09C.rle.bin",
+   "bytes": 1278,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086CA480",
+   "file": "gfx_086CA480.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086CA8A4",
+   "file": "gfx_086CA8A4.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086CAE2C",
+   "file": "gfx_086CAE2C.4bpp",
+   "bytes": 3192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086CC6B8",
+   "file": "gfx_086CC6B8.4bpp",
+   "bytes": 10846,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086CC80C",
+   "file": "gfx_086CC80C.rle.bin",
+   "bytes": 1024,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086CCD70",
+   "file": "gfx_086CCD70.4bpp",
+   "bytes": 7370,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086CD4F0",
+   "file": "gfx_086CD4F0.4bpp",
+   "bytes": 11522,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086CD584",
+   "file": "gfx_086CD584.4bpp",
+   "bytes": 832,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086CD724",
+   "file": "gfx_086CD724.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086CE080",
+   "file": "gfx_086CE080.4bpp",
+   "bytes": 10240,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086CE158",
+   "file": "gfx_086CE158.4bpp",
+   "bytes": 1024,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086CE37C",
+   "file": "gfx_086CE37C.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086CE89C",
+   "file": "gfx_086CE89C.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086CED0C",
+   "file": "gfx_086CED0C.4bpp",
+   "bytes": 4770,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086CF254",
+   "file": "gfx_086CF254.rle.bin",
+   "bytes": 1020,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086CF6E8",
+   "file": "gfx_086CF6E8.4bpp",
+   "bytes": 5120,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086CFA68",
+   "file": "gfx_086CFA68.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086D05FC",
+   "file": "gfx_086D05FC.4bpp",
+   "bytes": 10944,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D0874",
+   "file": "gfx_086D0874.rle.bin",
+   "bytes": 1654,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086D0AF0",
+   "file": "gfx_086D0AF0.4bpp",
+   "bytes": 2048,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D0EB0",
+   "file": "gfx_086D0EB0.4bpp",
+   "bytes": 3454,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D115C",
+   "file": "gfx_086D115C.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086D1A3C",
+   "file": "gfx_086D1A3C.4bpp",
+   "bytes": 5632,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D2164",
+   "file": "gfx_086D2164.4bpp",
+   "bytes": 5120,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D27A4",
+   "file": "gfx_086D27A4.4bpp",
+   "bytes": 3550,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D364C",
+   "file": "gfx_086D364C.4bpp",
+   "bytes": 9056,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D38C0",
+   "file": "gfx_086D38C0.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086D3C58",
+   "file": "gfx_086D3C58.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086D45DC",
+   "file": "gfx_086D45DC.4bpp",
+   "bytes": 10464,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D46BC",
+   "file": "gfx_086D46BC.4bpp",
+   "bytes": 1024,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D48E4",
+   "file": "gfx_086D48E4.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086D5EA8",
+   "file": "gfx_086D5EA8.4bpp",
+   "bytes": 15360,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D6EAC",
+   "file": "gfx_086D6EAC.4bpp",
+   "bytes": 11040,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D714C",
+   "file": "gfx_086D714C.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086D7BAC",
+   "file": "gfx_086D7BAC.4bpp",
+   "bytes": 10112,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D7D98",
+   "file": "gfx_086D7D98.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086D8680",
+   "file": "gfx_086D8680.4bpp",
+   "bytes": 7264,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D94CC",
+   "file": "gfx_086D94CC.4bpp",
+   "bytes": 8302,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086D96E0",
+   "file": "gfx_086D96E0.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086D97A0",
+   "file": "gfx_086D97A0.rle.bin",
+   "bytes": 1724,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086D9DB8",
+   "file": "gfx_086D9DB8.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086DA518",
+   "file": "gfx_086DA518.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086DA754",
+   "file": "gfx_086DA754.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086DA84C",
+   "file": "gfx_086DA84C.rle.bin",
+   "bytes": 1648,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086DB60C",
+   "file": "gfx_086DB60C.4bpp",
+   "bytes": 6498,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086DB688",
+   "file": "gfx_086DB688.rle.bin",
+   "bytes": 1142,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086DCC78",
+   "file": "gfx_086DCC78.4bpp",
+   "bytes": 9216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086DCF20",
+   "file": "gfx_086DCF20.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086DDDD0",
+   "file": "gfx_086DDDD0.4bpp",
+   "bytes": 6872,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086DE2D0",
+   "file": "gfx_086DE2D0.rle.bin",
+   "bytes": 1786,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086DEF18",
+   "file": "gfx_086DEF18.4bpp",
+   "bytes": 8992,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086DF028",
+   "file": "gfx_086DF028.rle.bin",
+   "bytes": 1204,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086DF140",
+   "file": "gfx_086DF140.rle.bin",
+   "bytes": 1204,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086DF79C",
+   "file": "gfx_086DF79C.4bpp",
+   "bytes": 3324,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086DFA6C",
+   "file": "gfx_086DFA6C.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086E0F20",
+   "file": "gfx_086E0F20.4bpp",
+   "bytes": 13312,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086E1030",
+   "file": "gfx_086E1030.rle.bin",
+   "bytes": 1664,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086E2318",
+   "file": "gfx_086E2318.4bpp",
+   "bytes": 8574,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086E2458",
+   "file": "gfx_086E2458.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086E2684",
+   "file": "gfx_086E2684.rle.bin",
+   "bytes": 1652,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086E29FC",
+   "file": "gfx_086E29FC.4bpp",
+   "bytes": 3146,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086E2F60",
+   "file": "gfx_086E2F60.4bpp",
+   "bytes": 7288,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086E38A0",
+   "file": "gfx_086E38A0.4bpp",
+   "bytes": 5086,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086E3A40",
+   "file": "gfx_086E3A40.rle.bin",
+   "bytes": 1452,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086E3CA0",
+   "file": "gfx_086E3CA0.4bpp",
+   "bytes": 3072,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086E44DC",
+   "file": "gfx_086E44DC.rle.bin",
+   "bytes": 510,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086E5478",
+   "file": "gfx_086E5478.4bpp",
+   "bytes": 10240,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086E56B0",
+   "file": "gfx_086E56B0.rle.bin",
+   "bytes": 1786,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086E63B8",
+   "file": "gfx_086E63B8.4bpp",
+   "bytes": 11340,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086E75B4",
+   "file": "gfx_086E75B4.4bpp",
+   "bytes": 7362,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086E8044",
+   "file": "gfx_086E8044.4bpp",
+   "bytes": 6442,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086E82E0",
+   "file": "gfx_086E82E0.rle.bin",
+   "bytes": 4096,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086E8450",
+   "file": "gfx_086E8450.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086E85C0",
+   "file": "gfx_086E85C0.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086E8718",
+   "file": "gfx_086E8718.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086E8D94",
+   "file": "gfx_086E8D94.4bpp",
+   "bytes": 7644,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086E8F68",
+   "file": "gfx_086E8F68.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086E9E30",
+   "file": "gfx_086E9E30.4bpp",
+   "bytes": 9216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086EA1F4",
+   "file": "gfx_086EA1F4.rle.bin",
+   "bytes": 1664,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086EA3E4",
+   "file": "gfx_086EA3E4.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086EAEBC",
+   "file": "gfx_086EAEBC.4bpp",
+   "bytes": 6816,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086EB02C",
+   "file": "gfx_086EB02C.rle.bin",
+   "bytes": 1586,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086EB844",
+   "file": "gfx_086EB844.4bpp",
+   "bytes": 3682,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086EBD8C",
+   "file": "gfx_086EBD8C.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086EBF68",
+   "file": "gfx_086EBF68.4bpp",
+   "bytes": 3446,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086EBFA8",
+   "file": "gfx_086EBFA8.rle.bin",
+   "bytes": 1504,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086EC420",
+   "file": "gfx_086EC420.4bpp",
+   "bytes": 3712,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086EC51C",
+   "file": "gfx_086EC51C.rle.bin",
+   "bytes": 1852,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086ECD34",
+   "file": "gfx_086ECD34.rle.bin",
+   "bytes": 510,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086ED390",
+   "file": "gfx_086ED390.4bpp",
+   "bytes": 7200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086ED690",
+   "file": "gfx_086ED690.4bpp",
+   "bytes": 3296,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086ED8C0",
+   "file": "gfx_086ED8C0.rle.bin",
+   "bytes": 1920,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086EDC48",
+   "file": "gfx_086EDC48.4bpp",
+   "bytes": 3042,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086EDCE0",
+   "file": "gfx_086EDCE0.rle.bin",
+   "bytes": 1462,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086EE020",
+   "file": "gfx_086EE020.4bpp",
+   "bytes": 2048,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086EF074",
+   "file": "gfx_086EF074.4bpp",
+   "bytes": 8192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086EF3E0",
+   "file": "gfx_086EF3E0.rle.bin",
+   "bytes": 1978,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086EF73C",
+   "file": "gfx_086EF73C.4bpp",
+   "bytes": 3968,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F0128",
+   "file": "gfx_086F0128.4bpp",
+   "bytes": 10208,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F0348",
+   "file": "gfx_086F0348.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F04D0",
+   "file": "gfx_086F04D0.rle.bin",
+   "bytes": 1790,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F0648",
+   "file": "gfx_086F0648.rle.bin",
+   "bytes": 1758,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F0F24",
+   "file": "gfx_086F0F24.4bpp",
+   "bytes": 5120,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F0FB4",
+   "file": "gfx_086F0FB4.rle.bin",
+   "bytes": 1276,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F1170",
+   "file": "gfx_086F1170.4bpp",
+   "bytes": 1848,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F137C",
+   "file": "gfx_086F137C.rle.bin",
+   "bytes": 1848,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F2074",
+   "file": "gfx_086F2074.4bpp",
+   "bytes": 5346,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F21C0",
+   "file": "gfx_086F21C0.rle.bin",
+   "bytes": 1524,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F275C",
+   "file": "gfx_086F275C.4bpp",
+   "bytes": 7808,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F2CE4",
+   "file": "gfx_086F2CE4.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F2DBC",
+   "file": "gfx_086F2DBC.rle.bin",
+   "bytes": 1216,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F3A14",
+   "file": "gfx_086F3A14.4bpp",
+   "bytes": 12158,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F3D70",
+   "file": "gfx_086F3D70.4bpp",
+   "bytes": 3712,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F4028",
+   "file": "gfx_086F4028.rle.bin",
+   "bytes": 3328,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F4088",
+   "file": "gfx_086F4088.rle.bin",
+   "bytes": 1216,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F441C",
+   "file": "gfx_086F441C.4bpp",
+   "bytes": 3168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F4574",
+   "file": "gfx_086F4574.rle.bin",
+   "bytes": 1658,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F5298",
+   "file": "gfx_086F5298.4bpp",
+   "bytes": 7102,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F5378",
+   "file": "gfx_086F5378.rle.bin",
+   "bytes": 1124,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F5B08",
+   "file": "gfx_086F5B08.4bpp",
+   "bytes": 4800,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F5D2C",
+   "file": "gfx_086F5D2C.rle.bin",
+   "bytes": 1974,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F608C",
+   "file": "gfx_086F608C.4bpp",
+   "bytes": 3936,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F619C",
+   "file": "gfx_086F619C.rle.bin",
+   "bytes": 1658,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F6500",
+   "file": "gfx_086F6500.4bpp",
+   "bytes": 3392,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F66E0",
+   "file": "gfx_086F66E0.rle.bin",
+   "bytes": 1664,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F6AA0",
+   "file": "gfx_086F6AA0.4bpp",
+   "bytes": 3144,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F6BA8",
+   "file": "gfx_086F6BA8.rle.bin",
+   "bytes": 1654,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F6CD4",
+   "file": "gfx_086F6CD4.4bpp",
+   "bytes": 1218,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F7774",
+   "file": "gfx_086F7774.4bpp",
+   "bytes": 9374,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F7A5C",
+   "file": "gfx_086F7A5C.4bpp",
+   "bytes": 2944,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F7C20",
+   "file": "gfx_086F7C20.rle.bin",
+   "bytes": 1910,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F7DB0",
+   "file": "gfx_086F7DB0.rle.bin",
+   "bytes": 1910,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F7F28",
+   "file": "gfx_086F7F28.rle.bin",
+   "bytes": 1910,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F8578",
+   "file": "gfx_086F8578.4bpp",
+   "bytes": 1534,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F8734",
+   "file": "gfx_086F8734.rle.bin",
+   "bytes": 1718,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086F8D44",
+   "file": "gfx_086F8D44.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086F8DCC",
+   "file": "gfx_086F8DCC.rle.bin",
+   "bytes": 1192,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086FA54C",
+   "file": "gfx_086FA54C.4bpp",
+   "bytes": 12994,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086FA828",
+   "file": "gfx_086FA828.rle.bin",
+   "bytes": 962,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086FAD18",
+   "file": "gfx_086FAD18.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086FAD8C",
+   "file": "gfx_086FAD8C.rle.bin",
+   "bytes": 742,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086FADE0",
+   "file": "gfx_086FADE0.rle.bin",
+   "bytes": 740,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086FAE1C",
+   "file": "gfx_086FAE1C.rle.bin",
+   "bytes": 738,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086FBFF0",
+   "file": "gfx_086FBFF0.4bpp",
+   "bytes": 8192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086FC268",
+   "file": "gfx_086FC268.rle.bin",
+   "bytes": 1856,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086FC360",
+   "file": "gfx_086FC360.rle.bin",
+   "bytes": 1266,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086FE81C",
+   "file": "gfx_086FE81C.4bpp",
+   "bytes": 15546,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086FE870",
+   "file": "gfx_086FE870.rle.bin",
+   "bytes": 512,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086FF70C",
+   "file": "gfx_086FF70C.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x086FF8F4",
+   "file": "gfx_086FF8F4.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x086FFD1C",
+   "file": "gfx_086FFD1C.4bpp",
+   "bytes": 2048,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08700344",
+   "file": "gfx_08700344.rle.bin",
+   "bytes": 1020,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08700660",
+   "file": "gfx_08700660.4bpp",
+   "bytes": 3312,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08700694",
+   "file": "gfx_08700694.rle.bin",
+   "bytes": 642,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087012A4",
+   "file": "gfx_087012A4.4bpp",
+   "bytes": 6720,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08701328",
+   "file": "gfx_08701328.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087025F8",
+   "file": "gfx_087025F8.4bpp",
+   "bytes": 11264,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087027A8",
+   "file": "gfx_087027A8.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087029F0",
+   "file": "gfx_087029F0.rle.bin",
+   "bytes": 1916,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08702A08",
+   "file": "gfx_08702A08.rle.bin",
+   "bytes": 512,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08703F90",
+   "file": "gfx_08703F90.4bpp",
+   "bytes": 9216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0870409C",
+   "file": "gfx_0870409C.rle.bin",
+   "bytes": 1154,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08704484",
+   "file": "gfx_08704484.4bpp",
+   "bytes": 3536,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08705860",
+   "file": "gfx_08705860.4bpp",
+   "bytes": 10522,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08705AF0",
+   "file": "gfx_08705AF0.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08705C70",
+   "file": "gfx_08705C70.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08706AF0",
+   "file": "gfx_08706AF0.4bpp",
+   "bytes": 9152,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08706E94",
+   "file": "gfx_08706E94.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08707014",
+   "file": "gfx_08707014.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08707774",
+   "file": "gfx_08707774.4bpp",
+   "bytes": 5120,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087077F8",
+   "file": "gfx_087077F8.rle.bin",
+   "bytes": 1238,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08707DD8",
+   "file": "gfx_08707DD8.4bpp",
+   "bytes": 2818,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08707EA8",
+   "file": "gfx_08707EA8.rle.bin",
+   "bytes": 1024,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0870804C",
+   "file": "gfx_0870804C.rle.bin",
+   "bytes": 1870,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08708D60",
+   "file": "gfx_08708D60.4bpp",
+   "bytes": 10144,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08708FA4",
+   "file": "gfx_08708FA4.rle.bin",
+   "bytes": 1850,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08709430",
+   "file": "gfx_08709430.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087094F0",
+   "file": "gfx_087094F0.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08709D74",
+   "file": "gfx_08709D74.4bpp",
+   "bytes": 8192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0870B038",
+   "file": "gfx_0870B038.4bpp",
+   "bytes": 11086,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0870B224",
+   "file": "gfx_0870B224.rle.bin",
+   "bytes": 1664,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0870B3E4",
+   "file": "gfx_0870B3E4.rle.bin",
+   "bytes": 1664,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0870CD70",
+   "file": "gfx_0870CD70.4bpp",
+   "bytes": 14146,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0870CE28",
+   "file": "gfx_0870CE28.rle.bin",
+   "bytes": 1152,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0870CF38",
+   "file": "gfx_0870CF38.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0870D460",
+   "file": "gfx_0870D460.4bpp",
+   "bytes": 11420,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0870D570",
+   "file": "gfx_0870D570.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0870DF18",
+   "file": "gfx_0870DF18.4bpp",
+   "bytes": 5026,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0870E300",
+   "file": "gfx_0870E300.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0870FE5C",
+   "file": "gfx_0870FE5C.4bpp",
+   "bytes": 14336,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08710048",
+   "file": "gfx_08710048.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0871042C",
+   "file": "gfx_0871042C.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087105CC",
+   "file": "gfx_087105CC.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08710730",
+   "file": "gfx_08710730.4bpp",
+   "bytes": 6178,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08711B44",
+   "file": "gfx_08711B44.4bpp",
+   "bytes": 11808,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08711ED4",
+   "file": "gfx_08711ED4.rle.bin",
+   "bytes": 1724,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08711F24",
+   "file": "gfx_08711F24.rle.bin",
+   "bytes": 936,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08712EAC",
+   "file": "gfx_08712EAC.4bpp",
+   "bytes": 10882,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087130C0",
+   "file": "gfx_087130C0.rle.bin",
+   "bytes": 1824,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087132A8",
+   "file": "gfx_087132A8.rle.bin",
+   "bytes": 1824,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08713490",
+   "file": "gfx_08713490.rle.bin",
+   "bytes": 1824,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08713678",
+   "file": "gfx_08713678.rle.bin",
+   "bytes": 1824,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08713860",
+   "file": "gfx_08713860.rle.bin",
+   "bytes": 1824,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08713960",
+   "file": "gfx_08713960.rle.bin",
+   "bytes": 2564,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08714228",
+   "file": "gfx_08714228.4bpp",
+   "bytes": 4576,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08714470",
+   "file": "gfx_08714470.rle.bin",
+   "bytes": 1596,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087159CC",
+   "file": "gfx_087159CC.4bpp",
+   "bytes": 16384,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0871717C",
+   "file": "gfx_0871717C.4bpp",
+   "bytes": 12288,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087185BC",
+   "file": "gfx_087185BC.4bpp",
+   "bytes": 10240,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08718A30",
+   "file": "gfx_08718A30.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08718CFC",
+   "file": "gfx_08718CFC.4bpp",
+   "bytes": 3356,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0871B3A8",
+   "file": "gfx_0871B3A8.4bpp",
+   "bytes": 15708,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0871C81C",
+   "file": "gfx_0871C81C.4bpp",
+   "bytes": 6466,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0871CC30",
+   "file": "gfx_0871CC30.rle.bin",
+   "bytes": 1654,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0871D448",
+   "file": "gfx_0871D448.rle.bin",
+   "bytes": 510,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0871D4F0",
+   "file": "gfx_0871D4F0.rle.bin",
+   "bytes": 1720,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0871D6CC",
+   "file": "gfx_0871D6CC.rle.bin",
+   "bytes": 1142,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0871D83C",
+   "file": "gfx_0871D83C.4bpp",
+   "bytes": 2048,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0871D958",
+   "file": "gfx_0871D958.rle.bin",
+   "bytes": 1650,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0871DC64",
+   "file": "gfx_0871DC64.4bpp",
+   "bytes": 3202,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0871DD18",
+   "file": "gfx_0871DD18.rle.bin",
+   "bytes": 1474,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0871F2D8",
+   "file": "gfx_0871F2D8.4bpp",
+   "bytes": 13088,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0871F508",
+   "file": "gfx_0871F508.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0872051C",
+   "file": "gfx_0872051C.4bpp",
+   "bytes": 12834,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08720638",
+   "file": "gfx_08720638.rle.bin",
+   "bytes": 1136,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0872071C",
+   "file": "gfx_0872071C.4bpp",
+   "bytes": 1600,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087208CC",
+   "file": "gfx_087208CC.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08720B44",
+   "file": "gfx_08720B44.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08720D98",
+   "file": "gfx_08720D98.4bpp",
+   "bytes": 3296,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08721BBC",
+   "file": "gfx_08721BBC.4bpp",
+   "bytes": 8064,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08721F3C",
+   "file": "gfx_08721F3C.rle.bin",
+   "bytes": 1920,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08722604",
+   "file": "gfx_08722604.4bpp",
+   "bytes": 4784,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087226F8",
+   "file": "gfx_087226F8.rle.bin",
+   "bytes": 2044,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087238D4",
+   "file": "gfx_087238D4.4bpp",
+   "bytes": 9984,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0872407C",
+   "file": "gfx_0872407C.rle.bin",
+   "bytes": 1714,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08724798",
+   "file": "gfx_08724798.4bpp",
+   "bytes": 4734,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087251E8",
+   "file": "gfx_087251E8.4bpp",
+   "bytes": 6014,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08725CCC",
+   "file": "gfx_08725CCC.4bpp",
+   "bytes": 14306,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08726FA0",
+   "file": "gfx_08726FA0.4bpp",
+   "bytes": 13088,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08727308",
+   "file": "gfx_08727308.rle.bin",
+   "bytes": 1778,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08727FE4",
+   "file": "gfx_08727FE4.4bpp",
+   "bytes": 12570,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0872813C",
+   "file": "gfx_0872813C.rle.bin",
+   "bytes": 628,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087281A0",
+   "file": "gfx_087281A0.rle.bin",
+   "bytes": 1258,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08728D60",
+   "file": "gfx_08728D60.4bpp",
+   "bytes": 9632,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08728E38",
+   "file": "gfx_08728E38.rle.bin",
+   "bytes": 1704,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0872911C",
+   "file": "gfx_0872911C.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087294E8",
+   "file": "gfx_087294E8.rle.bin",
+   "bytes": 3390,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0872A254",
+   "file": "gfx_0872A254.4bpp",
+   "bytes": 13152,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0872A598",
+   "file": "gfx_0872A598.rle.bin",
+   "bytes": 1718,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0872ABE8",
+   "file": "gfx_0872ABE8.4bpp",
+   "bytes": 3168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0872AF20",
+   "file": "gfx_0872AF20.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0872B784",
+   "file": "gfx_0872B784.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0872B8E8",
+   "file": "gfx_0872B8E8.rle.bin",
+   "bytes": 1588,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0872D230",
+   "file": "gfx_0872D230.4bpp",
+   "bytes": 13474,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0872D3DC",
+   "file": "gfx_0872D3DC.rle.bin",
+   "bytes": 1718,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0872E434",
+   "file": "gfx_0872E434.4bpp",
+   "bytes": 9824,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0872E68C",
+   "file": "gfx_0872E68C.rle.bin",
+   "bytes": 1818,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0872EBA8",
+   "file": "gfx_0872EBA8.4bpp",
+   "bytes": 5274,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0872FC70",
+   "file": "gfx_0872FC70.4bpp",
+   "bytes": 9216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0872FF58",
+   "file": "gfx_0872FF58.rle.bin",
+   "bytes": 1654,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0872FF74",
+   "file": "gfx_0872FF74.rle.bin",
+   "bytes": 1532,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087320A4",
+   "file": "gfx_087320A4.4bpp",
+   "bytes": 14164,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08732158",
+   "file": "gfx_08732158.rle.bin",
+   "bytes": 1614,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087322FC",
+   "file": "gfx_087322FC.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08732FC8",
+   "file": "gfx_08732FC8.4bpp",
+   "bytes": 11264,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0873315C",
+   "file": "gfx_0873315C.rle.bin",
+   "bytes": 1626,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08733218",
+   "file": "gfx_08733218.rle.bin",
+   "bytes": 1446,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08733878",
+   "file": "gfx_08733878.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08733C38",
+   "file": "gfx_08733C38.rle.bin",
+   "bytes": 3904,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0873417C",
+   "file": "gfx_0873417C.4bpp",
+   "bytes": 5120,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087342DC",
+   "file": "gfx_087342DC.rle.bin",
+   "bytes": 1538,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08734AF4",
+   "file": "gfx_08734AF4.rle.bin",
+   "bytes": 510,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0873530C",
+   "file": "gfx_0873530C.rle.bin",
+   "bytes": 510,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087364D0",
+   "file": "gfx_087364D0.4bpp",
+   "bytes": 9974,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0873657C",
+   "file": "gfx_0873657C.rle.bin",
+   "bytes": 1146,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087369B4",
+   "file": "gfx_087369B4.4bpp",
+   "bytes": 3086,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08736B68",
+   "file": "gfx_08736B68.rle.bin",
+   "bytes": 1652,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08737E6C",
+   "file": "gfx_08737E6C.4bpp",
+   "bytes": 11200,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08738144",
+   "file": "gfx_08738144.rle.bin",
+   "bytes": 1652,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08738438",
+   "file": "gfx_08738438.rle.bin",
+   "bytes": 1652,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08738D18",
+   "file": "gfx_08738D18.4bpp",
+   "bytes": 7574,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08738F98",
+   "file": "gfx_08738F98.rle.bin",
+   "bytes": 1856,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087391A0",
+   "file": "gfx_087391A0.rle.bin",
+   "bytes": 1856,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087393D4",
+   "file": "gfx_087393D4.rle.bin",
+   "bytes": 1856,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0873BDB8",
+   "file": "gfx_0873BDB8.4bpp",
+   "bytes": 16384,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0873BFA8",
+   "file": "gfx_0873BFA8.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0873C960",
+   "file": "gfx_0873C960.4bpp",
+   "bytes": 7872,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0873CA1C",
+   "file": "gfx_0873CA1C.rle.bin",
+   "bytes": 756,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0873E380",
+   "file": "gfx_0873E380.4bpp",
+   "bytes": 13074,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0873E634",
+   "file": "gfx_0873E634.rle.bin",
+   "bytes": 1590,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0873E824",
+   "file": "gfx_0873E824.rle.bin",
+   "bytes": 1718,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0873FBE8",
+   "file": "gfx_0873FBE8.4bpp",
+   "bytes": 6784,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087402B4",
+   "file": "gfx_087402B4.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0874051C",
+   "file": "gfx_0874051C.4bpp",
+   "bytes": 2048,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08741350",
+   "file": "gfx_08741350.4bpp",
+   "bytes": 6886,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087419A8",
+   "file": "gfx_087419A8.rle.bin",
+   "bytes": 1986,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08741FBC",
+   "file": "gfx_08741FBC.rle.bin",
+   "bytes": 1986,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087424E4",
+   "file": "gfx_087424E4.rle.bin",
+   "bytes": 1986,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087448EC",
+   "file": "gfx_087448EC.4bpp",
+   "bytes": 14552,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08744C58",
+   "file": "gfx_08744C58.rle.bin",
+   "bytes": 1654,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08745328",
+   "file": "gfx_08745328.4bpp",
+   "bytes": 6112,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08745358",
+   "file": "gfx_08745358.rle.bin",
+   "bytes": 1532,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08745C70",
+   "file": "gfx_08745C70.4bpp",
+   "bytes": 12182,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08745CD0",
+   "file": "gfx_08745CD0.rle.bin",
+   "bytes": 962,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08747238",
+   "file": "gfx_08747238.4bpp",
+   "bytes": 11264,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08747540",
+   "file": "gfx_08747540.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087475F0",
+   "file": "gfx_087475F0.rle.bin",
+   "bytes": 1962,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087476CC",
+   "file": "gfx_087476CC.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08747FD0",
+   "file": "gfx_08747FD0.4bpp",
+   "bytes": 11902,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08748028",
+   "file": "gfx_08748028.rle.bin",
+   "bytes": 962,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08749F38",
+   "file": "gfx_08749F38.4bpp",
+   "bytes": 16098,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0874B5B8",
+   "file": "gfx_0874B5B8.4bpp",
+   "bytes": 14178,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0874BA54",
+   "file": "gfx_0874BA54.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0874C0B4",
+   "file": "gfx_0874C0B4.rle.bin",
+   "bytes": 3068,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0874C4D8",
+   "file": "gfx_0874C4D8.rle.bin",
+   "bytes": 3068,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0874D248",
+   "file": "gfx_0874D248.4bpp",
+   "bytes": 12092,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0874D3A0",
+   "file": "gfx_0874D3A0.rle.bin",
+   "bytes": 1200,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0874E2C8",
+   "file": "gfx_0874E2C8.4bpp",
+   "bytes": 10880,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0874E9A0",
+   "file": "gfx_0874E9A0.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0874EBA0",
+   "file": "gfx_0874EBA0.rle.bin",
+   "bytes": 1682,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0874F0C8",
+   "file": "gfx_0874F0C8.4bpp",
+   "bytes": 3872,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0874FA64",
+   "file": "gfx_0874FA64.rle.bin",
+   "bytes": 7670,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0874FAF4",
+   "file": "gfx_0874FAF4.rle.bin",
+   "bytes": 1592,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087519D0",
+   "file": "gfx_087519D0.4bpp",
+   "bytes": 15600,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08752D34",
+   "file": "gfx_08752D34.4bpp",
+   "bytes": 10240,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087530B4",
+   "file": "gfx_087530B4.rle.bin",
+   "bytes": 1654,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0875314C",
+   "file": "gfx_0875314C.rle.bin",
+   "bytes": 1654,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08754F74",
+   "file": "gfx_08754F74.4bpp",
+   "bytes": 11564,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0875521C",
+   "file": "gfx_0875521C.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087555E8",
+   "file": "gfx_087555E8.rle.bin",
+   "bytes": 3326,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0875668C",
+   "file": "gfx_0875668C.4bpp",
+   "bytes": 16032,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08756AF8",
+   "file": "gfx_08756AF8.4bpp",
+   "bytes": 3168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08756F58",
+   "file": "gfx_08756F58.rle.bin",
+   "bytes": 1722,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08758B10",
+   "file": "gfx_08758B10.4bpp",
+   "bytes": 13538,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08759E8C",
+   "file": "gfx_08759E8C.4bpp",
+   "bytes": 8958,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0875A15C",
+   "file": "gfx_0875A15C.rle.bin",
+   "bytes": 1658,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0875BA88",
+   "file": "gfx_0875BA88.4bpp",
+   "bytes": 11264,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0875BFB8",
+   "file": "gfx_0875BFB8.rle.bin",
+   "bytes": 1020,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0875C518",
+   "file": "gfx_0875C518.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0875EE54",
+   "file": "gfx_0875EE54.4bpp",
+   "bytes": 14004,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08761678",
+   "file": "gfx_08761678.4bpp",
+   "bytes": 15776,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087621F4",
+   "file": "gfx_087621F4.4bpp",
+   "bytes": 5024,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08762454",
+   "file": "gfx_08762454.rle.bin",
+   "bytes": 1590,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0876252C",
+   "file": "gfx_0876252C.rle.bin",
+   "bytes": 1522,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087648F4",
+   "file": "gfx_087648F4.4bpp",
+   "bytes": 13184,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08767A60",
+   "file": "gfx_08767A60.4bpp",
+   "bytes": 16142,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08767B68",
+   "file": "gfx_08767B68.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08767D6C",
+   "file": "gfx_08767D6C.4bpp",
+   "bytes": 1392,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08768B84",
+   "file": "gfx_08768B84.4bpp",
+   "bytes": 8192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08769A34",
+   "file": "gfx_08769A34.4bpp",
+   "bytes": 4270,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0876BA70",
+   "file": "gfx_0876BA70.4bpp",
+   "bytes": 8082,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0876BDB0",
+   "file": "gfx_0876BDB0.rle.bin",
+   "bytes": 1720,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0876C040",
+   "file": "gfx_0876C040.rle.bin",
+   "bytes": 1720,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0876D860",
+   "file": "gfx_0876D860.4bpp",
+   "bytes": 9216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0876DA1C",
+   "file": "gfx_0876DA1C.rle.bin",
+   "bytes": 1724,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0876DDF8",
+   "file": "gfx_0876DDF8.rle.bin",
+   "bytes": 2556,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0876EF38",
+   "file": "gfx_0876EF38.4bpp",
+   "bytes": 10038,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0876F4E8",
+   "file": "gfx_0876F4E8.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0876FC54",
+   "file": "gfx_0876FC54.4bpp",
+   "bytes": 4896,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08770908",
+   "file": "gfx_08770908.4bpp",
+   "bytes": 3874,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08770B18",
+   "file": "gfx_08770B18.rle.bin",
+   "bytes": 1714,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08770C1C",
+   "file": "gfx_08770C1C.rle.bin",
+   "bytes": 1714,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0877114C",
+   "file": "gfx_0877114C.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0877147C",
+   "file": "gfx_0877147C.rle.bin",
+   "bytes": 1714,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08773244",
+   "file": "gfx_08773244.4bpp",
+   "bytes": 13312,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08775088",
+   "file": "gfx_08775088.4bpp",
+   "bytes": 16384,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087751F0",
+   "file": "gfx_087751F0.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08775704",
+   "file": "gfx_08775704.4bpp",
+   "bytes": 4080,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0877573C",
+   "file": "gfx_0877573C.rle.bin",
+   "bytes": 512,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08777020",
+   "file": "gfx_08777020.4bpp",
+   "bytes": 9884,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08778790",
+   "file": "gfx_08778790.4bpp",
+   "bytes": 10370,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08778908",
+   "file": "gfx_08778908.rle.bin",
+   "bytes": 1654,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087789BC",
+   "file": "gfx_087789BC.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0877A4F0",
+   "file": "gfx_0877A4F0.4bpp",
+   "bytes": 12288,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0877D68C",
+   "file": "gfx_0877D68C.4bpp",
+   "bytes": 15852,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0877DA14",
+   "file": "gfx_0877DA14.rle.bin",
+   "bytes": 1782,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0877DAF4",
+   "file": "gfx_0877DAF4.rle.bin",
+   "bytes": 874,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0877FE0C",
+   "file": "gfx_0877FE0C.4bpp",
+   "bytes": 15116,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08780014",
+   "file": "gfx_08780014.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0878058C",
+   "file": "gfx_0878058C.rle.bin",
+   "bytes": 2022,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08780BEC",
+   "file": "gfx_08780BEC.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087810E4",
+   "file": "gfx_087810E4.4bpp",
+   "bytes": 3072,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08781480",
+   "file": "gfx_08781480.rle.bin",
+   "bytes": 1920,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08781510",
+   "file": "gfx_08781510.rle.bin",
+   "bytes": 1274,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08782378",
+   "file": "gfx_08782378.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08782484",
+   "file": "gfx_08782484.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08784380",
+   "file": "gfx_08784380.4bpp",
+   "bytes": 11904,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08785B44",
+   "file": "gfx_08785B44.4bpp",
+   "bytes": 12000,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08785DE4",
+   "file": "gfx_08785DE4.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08785F3C",
+   "file": "gfx_08785F3C.rle.bin",
+   "bytes": 1282,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08787488",
+   "file": "gfx_08787488.4bpp",
+   "bytes": 10120,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08788678",
+   "file": "gfx_08788678.4bpp",
+   "bytes": 6142,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08788B10",
+   "file": "gfx_08788B10.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08788FE4",
+   "file": "gfx_08788FE4.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08789578",
+   "file": "gfx_08789578.rle.bin",
+   "bytes": 2558,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0878B3C4",
+   "file": "gfx_0878B3C4.4bpp",
+   "bytes": 15764,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0878B474",
+   "file": "gfx_0878B474.rle.bin",
+   "bytes": 1448,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0878C7EC",
+   "file": "gfx_0878C7EC.4bpp",
+   "bytes": 13234,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0878DE68",
+   "file": "gfx_0878DE68.4bpp",
+   "bytes": 11294,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0878E190",
+   "file": "gfx_0878E190.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0878E220",
+   "file": "gfx_0878E220.rle.bin",
+   "bytes": 1590,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0878E898",
+   "file": "gfx_0878E898.4bpp",
+   "bytes": 5824,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08790E48",
+   "file": "gfx_08790E48.4bpp",
+   "bytes": 13276,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08791008",
+   "file": "gfx_08791008.4bpp",
+   "bytes": 1024,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087910C0",
+   "file": "gfx_087910C0.rle.bin",
+   "bytes": 1650,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08791168",
+   "file": "gfx_08791168.rle.bin",
+   "bytes": 1438,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08791A84",
+   "file": "gfx_08791A84.4bpp",
+   "bytes": 9592,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08791B2C",
+   "file": "gfx_08791B2C.rle.bin",
+   "bytes": 1004,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08793480",
+   "file": "gfx_08793480.4bpp",
+   "bytes": 12416,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08794B74",
+   "file": "gfx_08794B74.4bpp",
+   "bytes": 8066,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08794E10",
+   "file": "gfx_08794E10.rle.bin",
+   "bytes": 2496,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087950C8",
+   "file": "gfx_087950C8.rle.bin",
+   "bytes": 2496,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08795310",
+   "file": "gfx_08795310.rle.bin",
+   "bytes": 2496,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0879559C",
+   "file": "gfx_0879559C.rle.bin",
+   "bytes": 2496,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08795808",
+   "file": "gfx_08795808.rle.bin",
+   "bytes": 2530,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08795A50",
+   "file": "gfx_08795A50.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087974F4",
+   "file": "gfx_087974F4.4bpp",
+   "bytes": 12288,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087989C4",
+   "file": "gfx_087989C4.4bpp",
+   "bytes": 16224,
+   "double_compressed": true
+  },
+  {
+   "address": "0x08798BC0",
+   "file": "gfx_08798BC0.rle.bin",
+   "bytes": 1774,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08798D78",
+   "file": "gfx_08798D78.rle.bin",
+   "bytes": 1774,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08798F28",
+   "file": "gfx_08798F28.rle.bin",
+   "bytes": 1774,
+   "double_compressed": false
+  },
+  {
+   "address": "0x08799498",
+   "file": "gfx_08799498.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0879A1C0",
+   "file": "gfx_0879A1C0.4bpp",
+   "bytes": 13312,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0879B314",
+   "file": "gfx_0879B314.4bpp",
+   "bytes": 11264,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0879B5FC",
+   "file": "gfx_0879B5FC.rle.bin",
+   "bytes": 1842,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0879C238",
+   "file": "gfx_0879C238.4bpp",
+   "bytes": 6784,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0879C4B4",
+   "file": "gfx_0879C4B4.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0879CFE0",
+   "file": "gfx_0879CFE0.4bpp",
+   "bytes": 4718,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0879DA68",
+   "file": "gfx_0879DA68.4bpp",
+   "bytes": 4096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0879DB90",
+   "file": "gfx_0879DB90.rle.bin",
+   "bytes": 1230,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0879DC44",
+   "file": "gfx_0879DC44.rle.bin",
+   "bytes": 1482,
+   "double_compressed": false
+  },
+  {
+   "address": "0x0879FDA0",
+   "file": "gfx_0879FDA0.4bpp",
+   "bytes": 12376,
+   "double_compressed": true
+  },
+  {
+   "address": "0x0879FF00",
+   "file": "gfx_0879FF00.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087A00D8",
+   "file": "gfx_087A00D8.rle.bin",
+   "bytes": 1914,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087A1A84",
+   "file": "gfx_087A1A84.4bpp",
+   "bytes": 10396,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087A1C28",
+   "file": "gfx_087A1C28.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087A2C50",
+   "file": "gfx_087A2C50.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087A2E0C",
+   "file": "gfx_087A2E0C.rle.bin",
+   "bytes": 1278,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087A3140",
+   "file": "gfx_087A3140.rle.bin",
+   "bytes": 1702,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087A43D4",
+   "file": "gfx_087A43D4.4bpp",
+   "bytes": 11096,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087A4614",
+   "file": "gfx_087A4614.rle.bin",
+   "bytes": 1664,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087A4670",
+   "file": "gfx_087A4670.rle.bin",
+   "bytes": 1024,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087A4AE0",
+   "file": "gfx_087A4AE0.4bpp",
+   "bytes": 4064,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087A4DF4",
+   "file": "gfx_087A4DF4.rle.bin",
+   "bytes": 1640,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087A6ECC",
+   "file": "gfx_087A6ECC.4bpp",
+   "bytes": 13312,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087A7B0C",
+   "file": "gfx_087A7B0C.4bpp",
+   "bytes": 4130,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087A7CBC",
+   "file": "gfx_087A7CBC.rle.bin",
+   "bytes": 1642,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087A9180",
+   "file": "gfx_087A9180.4bpp",
+   "bytes": 9536,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087A97B4",
+   "file": "gfx_087A97B4.rle.bin",
+   "bytes": 1020,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087AB5E0",
+   "file": "gfx_087AB5E0.4bpp",
+   "bytes": 11084,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087AB7C4",
+   "file": "gfx_087AB7C4.rle.bin",
+   "bytes": 1620,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087AC8AC",
+   "file": "gfx_087AC8AC.4bpp",
+   "bytes": 11330,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087AD770",
+   "file": "gfx_087AD770.4bpp",
+   "bytes": 2952,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087AD9F4",
+   "file": "gfx_087AD9F4.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087ADE08",
+   "file": "gfx_087ADE08.rle.bin",
+   "bytes": 510,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087AECC4",
+   "file": "gfx_087AECC4.4bpp",
+   "bytes": 9216,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087AFA54",
+   "file": "gfx_087AFA54.4bpp",
+   "bytes": 5100,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087B0F64",
+   "file": "gfx_087B0F64.4bpp",
+   "bytes": 13306,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087B0FA0",
+   "file": "gfx_087B0FA0.4bpp",
+   "bytes": 640,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087B1854",
+   "file": "gfx_087B1854.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087B1874",
+   "file": "gfx_087B1874.rle.bin",
+   "bytes": 1280,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087B36B4",
+   "file": "gfx_087B36B4.4bpp",
+   "bytes": 12672,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087B4174",
+   "file": "gfx_087B4174.4bpp",
+   "bytes": 5856,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087B42D0",
+   "file": "gfx_087B42D0.rle.bin",
+   "bytes": 1664,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087B52EC",
+   "file": "gfx_087B52EC.4bpp",
+   "bytes": 11104,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087B5608",
+   "file": "gfx_087B5608.rle.bin",
+   "bytes": 1710,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087B6848",
+   "file": "gfx_087B6848.4bpp",
+   "bytes": 7168,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087B717C",
+   "file": "gfx_087B717C.4bpp",
+   "bytes": 4926,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087B7F58",
+   "file": "gfx_087B7F58.4bpp",
+   "bytes": 6834,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087B9DA4",
+   "file": "gfx_087B9DA4.4bpp",
+   "bytes": 12052,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087BC6DC",
+   "file": "gfx_087BC6DC.4bpp",
+   "bytes": 14844,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087BC944",
+   "file": "gfx_087BC944.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087BCD60",
+   "file": "gfx_087BCD60.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087BDCA0",
+   "file": "gfx_087BDCA0.4bpp",
+   "bytes": 8070,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087BDCEC",
+   "file": "gfx_087BDCEC.rle.bin",
+   "bytes": 1048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087BE380",
+   "file": "gfx_087BE380.4bpp",
+   "bytes": 6176,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087BE620",
+   "file": "gfx_087BE620.4bpp",
+   "bytes": 1632,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087BE78C",
+   "file": "gfx_087BE78C.rle.bin",
+   "bytes": 1954,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087BE940",
+   "file": "gfx_087BE940.rle.bin",
+   "bytes": 3690,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087BEAE8",
+   "file": "gfx_087BEAE8.rle.bin",
+   "bytes": 3690,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087BEC94",
+   "file": "gfx_087BEC94.rle.bin",
+   "bytes": 3690,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087BECB8",
+   "file": "gfx_087BECB8.rle.bin",
+   "bytes": 524,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087C0854",
+   "file": "gfx_087C0854.4bpp",
+   "bytes": 11298,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087C3874",
+   "file": "gfx_087C3874.4bpp",
+   "bytes": 14832,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087C4328",
+   "file": "gfx_087C4328.4bpp",
+   "bytes": 3308,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087C44F4",
+   "file": "gfx_087C44F4.rle.bin",
+   "bytes": 1654,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087C5C0C",
+   "file": "gfx_087C5C0C.4bpp",
+   "bytes": 14336,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087C6AF8",
+   "file": "gfx_087C6AF8.4bpp",
+   "bytes": 11488,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087C6B50",
+   "file": "gfx_087C6B50.rle.bin",
+   "bytes": 1728,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087C85E0",
+   "file": "gfx_087C85E0.4bpp",
+   "bytes": 11560,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087C9EC8",
+   "file": "gfx_087C9EC8.4bpp",
+   "bytes": 8896,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087CA51C",
+   "file": "gfx_087CA51C.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087CA88C",
+   "file": "gfx_087CA88C.rle.bin",
+   "bytes": 2048,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087CADC8",
+   "file": "gfx_087CADC8.rle.bin",
+   "bytes": 4096,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087CC3B0",
+   "file": "gfx_087CC3B0.4bpp",
+   "bytes": 12288,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087CD7C0",
+   "file": "gfx_087CD7C0.4bpp",
+   "bytes": 10898,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087CD810",
+   "file": "gfx_087CD810.rle.bin",
+   "bytes": 962,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087CDBC8",
+   "file": "gfx_087CDBC8.4bpp",
+   "bytes": 2588,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087CDD1C",
+   "file": "gfx_087CDD1C.rle.bin",
+   "bytes": 1780,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087CE85C",
+   "file": "gfx_087CE85C.4bpp",
+   "bytes": 8192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087D0764",
+   "file": "gfx_087D0764.4bpp",
+   "bytes": 13244,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087D31B4",
+   "file": "gfx_087D31B4.4bpp",
+   "bytes": 16002,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087D321C",
+   "file": "gfx_087D321C.rle.bin",
+   "bytes": 1280,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087D3384",
+   "file": "gfx_087D3384.rle.bin",
+   "bytes": 1026,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087D34A0",
+   "file": "gfx_087D34A0.rle.bin",
+   "bytes": 1026,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087D3554",
+   "file": "gfx_087D3554.rle.bin",
+   "bytes": 1026,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087D3664",
+   "file": "gfx_087D3664.rle.bin",
+   "bytes": 1026,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087D39C4",
+   "file": "gfx_087D39C4.rle.bin",
+   "bytes": 1278,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087D4C10",
+   "file": "gfx_087D4C10.4bpp",
+   "bytes": 8192,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087D4E98",
+   "file": "gfx_087D4E98.rle.bin",
+   "bytes": 1728,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087D62C8",
+   "file": "gfx_087D62C8.4bpp",
+   "bytes": 7762,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087D7BA4",
+   "file": "gfx_087D7BA4.4bpp",
+   "bytes": 11806,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087D9900",
+   "file": "gfx_087D9900.4bpp",
+   "bytes": 14996,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087D9FAC",
+   "file": "gfx_087D9FAC.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087DA66C",
+   "file": "gfx_087DA66C.4bpp",
+   "bytes": 2752,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087DAD28",
+   "file": "gfx_087DAD28.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087DB3D0",
+   "file": "gfx_087DB3D0.4bpp",
+   "bytes": 2688,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087DB56C",
+   "file": "gfx_087DB56C.rle.bin",
+   "bytes": 832,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087DC164",
+   "file": "gfx_087DC164.rle.bin",
+   "bytes": 4096,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087DDD6C",
+   "file": "gfx_087DDD6C.4bpp",
+   "bytes": 14336,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087DDF68",
+   "file": "gfx_087DDF68.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087DEED0",
+   "file": "gfx_087DEED0.4bpp",
+   "bytes": 5910,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087DFB40",
+   "file": "gfx_087DFB40.4bpp",
+   "bytes": 5056,
+   "double_compressed": true
+  },
+  {
+   "address": "0x087DFC9C",
+   "file": "gfx_087DFC9C.rle.bin",
+   "bytes": 1922,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087DFCD8",
+   "file": "gfx_087DFCD8.rle.bin",
+   "bytes": 1664,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087DFFC4",
+   "file": "gfx_087DFFC4.rle.bin",
+   "bytes": 1792,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E0020",
+   "file": "gfx_087E0020.rle.bin",
+   "bytes": 672,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E0098",
+   "file": "gfx_087E0098.rle.bin",
+   "bytes": 672,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E0114",
+   "file": "gfx_087E0114.rle.bin",
+   "bytes": 672,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E017C",
+   "file": "gfx_087E017C.rle.bin",
+   "bytes": 672,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E021C",
+   "file": "gfx_087E021C.rle.bin",
+   "bytes": 800,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E030C",
+   "file": "gfx_087E030C.rle.bin",
+   "bytes": 1712,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E0920",
+   "file": "gfx_087E0920.rle.bin",
+   "bytes": 1646,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E0A10",
+   "file": "gfx_087E0A10.rle.bin",
+   "bytes": 1708,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E0FE4",
+   "file": "gfx_087E0FE4.rle.bin",
+   "bytes": 1648,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E10EC",
+   "file": "gfx_087E10EC.rle.bin",
+   "bytes": 1780,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E11C4",
+   "file": "gfx_087E11C4.rle.bin",
+   "bytes": 1654,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E12B4",
+   "file": "gfx_087E12B4.rle.bin",
+   "bytes": 1718,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E13BC",
+   "file": "gfx_087E13BC.rle.bin",
+   "bytes": 1782,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E1530",
+   "file": "gfx_087E1530.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E1ADC",
+   "file": "gfx_087E1ADC.rle.bin",
+   "bytes": 1588,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E1BCC",
+   "file": "gfx_087E1BCC.rle.bin",
+   "bytes": 1720,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E2120",
+   "file": "gfx_087E2120.rle.bin",
+   "bytes": 1652,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E2228",
+   "file": "gfx_087E2228.rle.bin",
+   "bytes": 1784,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E2724",
+   "file": "gfx_087E2724.rle.bin",
+   "bytes": 1716,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E2C38",
+   "file": "gfx_087E2C38.rle.bin",
+   "bytes": 1654,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E2D3C",
+   "file": "gfx_087E2D3C.rle.bin",
+   "bytes": 1786,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E2E2C",
+   "file": "gfx_087E2E2C.rle.bin",
+   "bytes": 1724,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E3300",
+   "file": "gfx_087E3300.rle.bin",
+   "bytes": 1656,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E3404",
+   "file": "gfx_087E3404.rle.bin",
+   "bytes": 1788,
+   "double_compressed": false
+  },
+  {
+   "address": "0x087E3870",
+   "file": "gfx_087E3870.rle.bin",
+   "bytes": 1720,
+   "double_compressed": false
+  }
+ ]
+}

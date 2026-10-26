@@ -1,0 +1,22 @@
+Sound-FIFO-DMA loeste den Abschluss-Interrupt nicht aus.
+
+GbaIo::run_sound_fifo_dma hatte als einziger der drei DMA-Pfade keinen
+IRQ-Zweig. WarioWare armiert DMA2 mit CNT_H=0xF600 (Bit 14 = IRQ), setzt
+IE=0x2401 (Bit 10 = DMA2) und laesst seinen IWRAM-Verteiler IntrMain DMA2 vor
+VBlank pruefen — die Soundengine haengt an diesem Interrupt. Ohne ihn tickt sie
+nach ihrer Initialisierung nie wieder, der Quellzeiger laeuft mangels Neustart
+durch das IWRAM und der FIFO spielt Speichermuell ab.
+
+--- a/src/gba/gba_io.cpp
++++ b/src/gba/gba_io.cpp
+@@ run_sound_fifo_dma
+     dma_next_source_[channel] = s;
+     dma_next_dest_[channel] = dad;
++
++    // IRQ on completion (DMA channel bits 8..11 in IF), same as the immediate
++    // and timed paths. A sound-FIFO channel transfers a fixed 4 words per timer
++    // request, so "completion" is per request.
++    if (cnt_h & 0x4000u) {
++        request_irq(static_cast<uint16_t>(1u << (8 + channel)));
++    }
+ }

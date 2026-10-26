@@ -1,0 +1,200 @@
+Mod-Naht fuer runtime.cpp -- Menue, Zufallsmodus, Ton und Darstellung.
+
+gbarecomp gehoert diesem Projekt nicht: der Klon unter ../../gbarecomp/
+wird beim Aktualisieren ueberschrieben. In runtime.cpp steht deshalb nur
+diese Naht -- sieben Aufrufe gegen schwach definierte No-Ops -- waehrend der
+gesamte Mod-Code in port/gbarecomp/mod/ liegt und ueber build.sh
+mitgelinkt wird. Ohne ww_mod.cpp gewinnen die schwachen Definitionen und
+die Laufzeit verhaelt sich Byte fuer Byte wie vorher.
+
+    ww_mod_init()          einmal, nach der Widescreen-Sonde
+    ww_mod_keys()          sieht die Tasten vor dem Gast
+    ww_mod_frame()         je praesentiertem Bild
+    ww_mod_owns_view()     uebernimmt der Mod die Darstellung?
+    ww_mod_view_width()    Breite der PPU-Ansicht (echtes Breitbild)
+    ww_mod_surface_size()  welche Zeichenflaeche zu diesem Fenster passt
+    ww_mod_compose()       setzt Bild, Rand und Menue zusammen
+
+Anwenden:  patch -p0 -d gbarecomp/gbarecomp-0.2.0/src/runtime \
+               < port/gbarecomp/mod-seam.patch
+
+--- runtime.cpp.orig
++++ runtime.cpp
+@@ -73,6 +73,28 @@
+ // a hook makes the per-VBlank frame-present yield present + resume in place
+ // instead of unwinding the guest stack — see the windowed runner below.
+ void runtime_set_frame_present_hook(std::function<bool()>);
++
++// ── WarioWare-Mod-Naht (port/gbarecomp/mod) ───────────────────────────
++// Sechs Aufrufe gegen schwache No-Ops. Ohne mitgelinkten Mod ist jeder
++// davon ein nicht genommener Sprung und die Laufzeit verhaelt sich exakt
++// wie zuvor; wird ww_mod.cpp mitgelinkt, gewinnen dessen starke
++// Definitionen. Der gesamte Mod-Code liegt ausserhalb dieses Baums,
++// damit ein Aktualisieren von gbarecomp ihn nicht mitnimmt.
++//
++// ww_mod_owns_view() != 0 uebergibt dem Mod die Darstellung: das Fenster
++// wird frei skalierbar geoeffnet, die Zeichenflaeche folgt seiner Groesse,
++// und ww_mod_compose() setzt das Bild darin zusammen -- Spielbild in
++// ganzzahligem Massstab, Rand gefuellt, Menue darueber.
++extern "C" {
++__attribute__((weak)) void ww_mod_init(void) {}
++__attribute__((weak)) void ww_mod_frame(void) {}
++__attribute__((weak)) std::uint16_t ww_mod_keys(std::uint16_t k) { return k; }
++__attribute__((weak)) int ww_mod_owns_view(void) { return 0; }
++__attribute__((weak)) int ww_mod_view_width(void) { return 240; }
++__attribute__((weak)) int ww_mod_surface_size(int, int, int*, int*) { return 0; }
++__attribute__((weak)) void ww_mod_compose(const std::uint8_t*, int, int,
++                                          std::uint8_t*, int, int) {}
++}
+ 
+ #ifndef GBARECOMP_DEFAULT_GAME_CONFIG
+ #define GBARECOMP_DEFAULT_GAME_CONFIG "game.toml"
+@@ -1367,6 +1389,11 @@
+     // GBARECOMP_WS_PROBE_DRAWMETATILE is set). Installs the function-entry hook
+     // so the owner ring tracks DrawMetatileAt continuously from boot.
+     ws_provenance_init_from_env();
++    // WarioWare-Mods: haengen sich hier in g_runtime_fn_entry_hook ein --
++    // nach dem Ruecksetzen weiter oben und nach der Widescreen-Sonde,
++    // deren Haken sie weiterrufen statt ihn zu verdraengen.
++    ww_mod_init();
++    const bool mod_owns_view = ww_mod_owns_view() != 0;
+     // Step C margin sidecar — gated by the WIP kill-switch (force-disabled unless
+     // GBARECOMP_WS_WIP=1) so the shipped build never arms the broken margin path.
+     if (ws_wip_enabled) ws_sidecar_init_from_env();
+@@ -1917,6 +1944,37 @@
+         }
+         return true;
+     };
++    // Echtes Breitbild aus dem Mod-Menue. Dieselbe Mechanik wie die adaptive
++    // Ansicht -- ppu.set_view_margins() darf zur Laufzeit umgestellt werden --
++    // nur kommt die Breite hier aus dem Menue statt aus dem Fensterformat.
++    // Ergebnis: die Randspalten zeigen, was die Hintergrundkarte dort
++    // hergibt; bei WarioWare ist das eine Wiederholung. Deshalb steht im
++    // Menue "(May have bugs)" daneben.
++    auto sync_mod_view = [&]() -> bool {
++        if (!win.is_open()) return false;
++        int want = ww_mod_view_width();
++        if (want < 240) want = 240;
++        if (want == static_cast<int>(ppu.render_width())) return false;
++        const ViewGeometry geometry = resolve_view_geometry(
++            want, opts.max_view_width, ws_wip_enabled,
++            gba::GbaPpu::kMaxRenderWidth);
++        if (geometry.width == ppu.render_width()) return false;
++        ppu.set_view_margins(geometry.extra_left, geometry.extra_right, 0, 0);
++        args.view_width  = static_cast<int>(ppu.render_width());
++        g_ws_extra_left  = static_cast<unsigned>(ppu.view_extra_left());
++        g_ws_extra_right = static_cast<unsigned>(ppu.view_extra_right());
++        g_ws_extra       = std::max(g_ws_extra_left, g_ws_extra_right);
++        g_ws_view_width  = ppu.render_width();
++        g_ws_active      = ppu.view_expanded() ? 1u : 0u;
++        live_fb.assign(ppu.render_bytes(), 0);
++        // Ohne den Mod als Bildmeister muss die Zeichenflaeche des Fensters
++        // mitwachsen; sonst laedt present() einen zu kleinen Texturrahmen.
++        if (!mod_owns_view)
++            win.set_surface_size(static_cast<int>(ppu.render_width()),
++                                 static_cast<int>(ppu.render_height()));
++        return true;
++    };
++
+     // Wall-clock frame limiter — constructed only for windowed runs so
+     // the Windows timer-resolution bump doesn't apply to headless/TCP
+     // batch runs (which intentionally run uncapped).
+@@ -1930,10 +1988,15 @@
+             runtime_shutdown();
+             return 1;
+         }
++        // mod_owns_view oeffnet dasselbe frei skalierbare Fenster wie die
++        // adaptive Ansicht (SDL_WINDOW_RESIZABLE + ausgerechnetes Zielrechteck
++        // statt fester logischer Groesse). Die adaptive *Politik* der Laufzeit
++        // bleibt davon unberuehrt -- die haengt an resize_view_enabled.
+         if (!win.open(args.scale, ppu.render_width(), ppu.render_height(),
+                       GBARECOMP_WINDOW_TITLE,
+                       args.screen.empty() ? nullptr : args.screen.c_str(),
+-                      args.linear_filter, resize_view_enabled)) {
++                      args.linear_filter,
++                      resize_view_enabled || mod_owns_view)) {
+             gbarecomp::overlay_loader_shutdown();
+             runtime_shutdown();
+             return 1;
+@@ -1962,6 +2025,28 @@
+         std::filesystem::path p(args.rom);
+         p.replace_extension(".state" + std::to_string(slot));
+         return p.string();
++    };
++
++    // Zeichenflaeche des Mods: folgt der Fenstergroesse, das Spielbild wird
++    // darin zusammengesetzt. Leer, solange der Mod die Darstellung nicht hat.
++    std::vector<uint8_t> mod_fb;
++    int mod_fb_w = 0, mod_fb_h = 0;
++    auto mod_present = [&]() {
++        int dw = 0, dh = 0, sw = 0, sh = 0;
++        if (!win.drawable_size(&dw, &dh) ||
++            !ww_mod_surface_size(dw, dh, &sw, &sh) || sw < 1 || sh < 1) {
++            win.present(live_fb.data());
++            return;
++        }
++        if (sw != mod_fb_w || sh != mod_fb_h) {
++            if (!win.set_surface_size(sw, sh)) { win.present(live_fb.data()); return; }
++            mod_fb_w = sw; mod_fb_h = sh;
++            mod_fb.assign(static_cast<std::size_t>(sw) * sh * 3u, 0);
++        }
++        ww_mod_compose(live_fb.data(), static_cast<int>(ppu.render_width()),
++                       static_cast<int>(ppu.render_height()),
++                       mod_fb.data(), mod_fb_w, mod_fb_h);
++        win.present(mod_fb.data());
+     };
+ 
+     uint64_t last_presented_frame = ppu.frame_count();
+@@ -2068,6 +2153,10 @@
+     auto pump_host_input = [&]() {
+         if (!args.window) return;
+         auto ev = win.pump();
++        // Bei offenem Mod-Menue schluckt der Mod die Tasten; er schiebt dort
++        // auch die kurzen Start/A-Impulse ein, mit denen das Spiel in seine
++        // eigene Pause geht und wieder heraus.
++        ev.keyinput = ww_mod_keys(ev.keyinput);
+         if (!input_replay_requested) bus.io().set_keyinput(ev.keyinput);
+         if (input_record_requested &&
+             (!input_record_have_value || ev.keyinput != input_record_last_value)) {
+@@ -2153,7 +2242,9 @@
+             uint64_t frame = ppu.frame_count();
+             if (frame != last_presented_frame) {
+                 const uint64_t fp_t0 = FramePhaseRing::now_ns();
+-                const bool view_changed = sync_resize_driven_view();
++                const bool rdv_changed = sync_resize_driven_view();
++                const bool mod_view_changed = sync_mod_view();
++                const bool view_changed = rdv_changed || mod_view_changed;
+                 if (ppu.has_latched_framebuffer() && !view_changed) {
+                     std::memcpy(live_fb.data(), ppu.latched_framebuffer(),
+                                 ppu.render_bytes());
+@@ -2163,7 +2254,8 @@
+                                bus.pal_ptr());
+                 }
+                 const uint64_t fp_t1 = FramePhaseRing::now_ns();
+-                win.present(live_fb.data());
++                ww_mod_frame();
++                if (mod_owns_view) mod_present(); else win.present(live_fb.data());
+                 const uint64_t fp_t2 = FramePhaseRing::now_ns();
+                 int16_t audio_buf[2048];
+                 win.set_audio_source_rate(
+@@ -2503,7 +2595,9 @@
+             uint64_t frame = ppu.frame_count();
+             if (frame != last_presented_frame) {
+                 const uint64_t fp_t0 = FramePhaseRing::now_ns();
+-                const bool view_changed = sync_resize_driven_view();
++                const bool rdv_changed = sync_resize_driven_view();
++                const bool mod_view_changed = sync_mod_view();
++                const bool view_changed = rdv_changed || mod_view_changed;
+                 if (ppu.has_latched_framebuffer() && !view_changed) {
+                     std::memcpy(live_fb.data(), ppu.latched_framebuffer(),
+                                 ppu.render_bytes());
+@@ -2513,7 +2607,8 @@
+                                bus.pal_ptr());
+                 }
+                 const uint64_t fp_t1 = FramePhaseRing::now_ns();
+-                win.present(live_fb.data());
++                ww_mod_frame();
++                if (mod_owns_view) mod_present(); else win.present(live_fb.data());
+                 // Framedump (capture runs only) is attributed to present_us.
+                 if (framedump_dir && frame >= framedump_start &&
+                     framedump_written < framedump_max) {

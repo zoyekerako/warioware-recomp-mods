@@ -1,0 +1,73 @@
+# Symbols pc/gba_runtime.c defines by hand; the stub generator skips these.
+# Everything here is infrastructure the GBA got from hardware or its BIOS --
+# RAM, the display flush, the heap, the fixed-point tables -- not game content.
+
+# RAM the linker script placed at fixed IWRAM addresses
+D_03003860
+gCurrentSceneData
+gCurrentSceneSpritePool
+gCurrentSceneVariable
+gBeatscriptScene
+gCurrentScene
+gGraphicsBuffer
+
+# The hardware abstraction layer, replaced wholesale by pc/gba_hal.c
+func_08000F10
+func_08000F28
+func_08000F74
+vblank_wait
+update_key_buffers
+dma3_set
+dma3_fill
+set_random_seed
+get_random_u16
+get_random_range
+sine_lerp
+cosine_lerp
+
+# Input, fed from SDL once per frame
+gCurrentKeys
+gPressedKeys
+gPrevKeys
+gRepeatedKeys
+gKeyRepeatTimer
+
+# The display seam
+flush_graphics_buffer
+trigger_pending_dma3
+
+# Heap
+mem_heap_alloc_id
+mem_heap_dealloc
+mem_heap_dealloc_with_id
+
+# Fixed-point maths the BIOS or a library provided
+fast_divsi3
+gSineTable
+gCosineTable
+gBlackPalette
+gWhitePalette
+
+# Save memory
+main_save_memory_base
+backup_save_memory_base
+
+# EWRAM-backed ROM pointers
+D_083A3D94
+D_03003BBC
+
+# Self-relocating SRAM access, replaced by plain copies
+func_080EE644
+func_080EE6A8
+
+# Sound driver: silent no-ops until it is ported
+func_080F4090
+func_080F3C60
+func_080F3C78
+func_080F3A90
+D_03003840
+D_03003638
+
+# libc
+strcpy
+strncmp

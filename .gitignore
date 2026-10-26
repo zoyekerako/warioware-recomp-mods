@@ -1,0 +1,33 @@
+# ROM, BIOS und Spielstand gehoeren niemandem ausser dir und bleiben draussen.
+*.gba
+*.sav
+gba_bios.bin
+
+# Das uebersetzte BIOS ist erzeugter Code aus deinem eigenen BIOS-Abzug.
+# build.sh stellt es in Sekunden wieder her.
+src/runtime/generated_bios/
+port/gbarecomp/src/runtime/generated_bios/
+
+# Fertig gebaute Sachen und Zwischenstaende
+port/gbarecomp/build/
+port/gbarecomp/wariowarerecomp
+recomp_cache/
+build/
+*.o
+*.a
+*.elf
+*.map
+
+# Der gbarecomp-Klon ist fremder Quelltext mit eigener Lizenz; die Aenderungen
+# daran liegen als Patches unter port/gbarecomp/ daneben.
+/gbarecomp/
+
+# Protokolle einzelner Laeufe
+hang_trace.csv
+hang_dump.log
+recomp_coverage_*.json
+recomp_master_misses_*.toml.frag
+
+__pycache__/
+*.pyc
+.DS_Store
